@@ -1,0 +1,443 @@
+/* SINTAXIS */
+
+/* CLASS */
+
+/*index*/
+/* cambia la medida del rem, 1 rem = 10 px*/
+
+
+html {
+  font-size: 62,5%;
+}
+
+/*index*/
+
+
+
+body {
+  background-color: rgb(207, 182, 182);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-position: center;
+  margin: 15px;
+  padding: 15px;
+  border: 10px rgb(80, 80, 148);
+}
+
+/*las clases son para que algo se diferencie del resto*/
+.colorAzul {
+  color: rgb(80, 71, 71);
+  font-size: 15px;
+  font-variant-position: super;
+  text-align: left;
+  margin: 10px;
+}
+
+.colorAzul {
+  color: rgb(80, 71, 71);
+  font-size: 15px;
+  font-variant-position: super;
+  text-align: left;
+}
+
+.colorAzul {
+  color: rgb(80, 71, 71);
+  font-size: 15px;
+  font-variant-position: super;
+  text-align: left;
+}
+
+.colorazul{
+  color: rgb(80, 71, 71);
+  font-size: 15px;
+  font-variant-position: super;
+  text-align: left;
+
+
+  
+}
+.tituloInicio{
+  color: rgb(85, 70, 70);
+  font-style: italic;
+  font-size: 50px;
+  text-align: center;
+  
+
+  
+}
+
+.tituloContactos {
+  color: black;
+  font-style: italic;
+  font-size: 50px;
+  text-align: center;
+  
+  
+}
+.tituloImagenes {
+  color: black;
+  font-style: italic;
+  font-size: 50px;
+  text-align: center;
+
+}
+
+.tituloInformacion {
+  color: black;
+  font-style: italic;
+  font-size: 50px;
+  text-align: center;
+  
+}
+
+.tituloGaleria {
+  color: black;
+  font-style: italic;
+  font-size: 50px;
+  text-align: center;
+  
+}
+/*TODOS MIS H1 VAN A TENER COLOR AMARILLO*/
+
+
+
+
+
+
+a{
+  background-color: rgb(31, 31, 41);
+}
+body {
+  .titulo
+  background-color: color:
+
+}
+.footer{
+  color: grey;
+  
+  padding: 20px;
+  
+}
+
+.redesFlotantes img {
+
+  width: 50px;
+}
+.redesFlotantes img {
+  width: 50px;
+}
+
+  
+.menuPrincipal{
+  
+  
+}
+.menuPrincipal ul{
+  list-style-type: circle;
+  text-align: right;
+  font-size: 20px;
+
+  
+  
+}
+h1{
+  text-align: left;
+  background-color: 
+  
+  
+}
+
+h2{
+  font-size: 15px;
+  flex: 15px;
+  
+}
+
+
+
+.principal__tituloTres{
+  font-size: 20px;
+  background-color: rgb(167, 150, 150);
+  padding: 30px;
+  border: solid 5px;
+  margin: 30px;
+  background-position: center;
+
+}
+.principal__tituloTres--gris{
+
+  background-color: rgb(29, 17, 17);
+  margin: 50px;
+  padding: 50px;
+  border: 5px black;
+}
+
+.galeria{
+  background-color: beige;
+}
+
+
+ul{
+  list-style: circle;
+  
+  text-align: left;
+
+}
+
+li{
+  display: inline-flex;
+  width: 25%;
+  position: relative;
+  font-size: 14px;
+  padding: top;
+  margin: 20px;
+  text-align: center;
+  background-color: rgb(179, 159, 159);
+}
+
+header{
+  background-size: 100px;
+  
+}
+  
+
+
+
+  background-color: grey;
+  height: 400px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: wrap start;
+
+ 
+ 
+
+.flexImagenTrin{
+  background-color: grey;
+  text-align: center;
+  font-size: 30px;
+}
+
+.flexImagen{
+  background-color: ;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.flexImagen img{
+   width: 150px;
+  height: 150px;
+  font-size: 50px;
+  border: solid black 3px;
+  justify-content: center;
+}
+.flexPictureEntrenar{
+  background-color: aliceblue;
+  text-align: center;
+  font-size: 30px; 
+}
+.flexpicture{
+  background-color: ;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.flexpicture img{
+  
+  width: 150px;
+  height: 150px;
+  font-size: 50px;
+  border: solid black 2px;
+  justify-content: center;
+}
+
+.flexFotosRecientes{
+  background-color: beige;
+  text-align: center;
+  font-size: 15px;
+  flex-wrap: wrap;
+}
+
+.flexfoto img{
+
+  width: 200px;
+  height: 200px;
+  font-size: 50px;
+  border: solid black 5px;
+  justify-content: center;
+}
+.header h1{
+  font-size: 2,75rem;
+  margin-top: 2rem;
+}
+.-flex-contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-home div{
+  display: flex;
+  justify-content: center;
+}
+.footer-home p{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.main-Motivate div{
+  display: flex;
+  justify-content: center;
+  
+}
+.main-Motivate p{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.header-menu div{
+  display: flex;
+  justify-content: left;
+  margin-top: 20px;
+}
+
+  .menuPrincipal{
+    
+    
+    flex-direction: row;
+  }
+
+  .contenedor{
+
+    display: grid;
+    grid-template-columns:repeat(2fr 1fr);
+    grid-template-rows: 0,3fr 1fr 1fr 1fr 1fr;
+    padding: 15px;
+    grid-template-areas: 
+    
+    
+    "Informacion informacion"
+    "menu menu"
+    "entrenar entrenar"
+    "seccion seccion"
+    "footer footer"
+    ;
+    align-items: stretch;
+  }
+
+  .informacion{
+    grid-area: informacion;
+    margin: 30px;
+    
+  }
+  .header{
+    grid-area: menu;
+    margin: 30px;
+  }
+  .entrenar{
+    grid-area: entrenar;
+  }
+  .seccion{
+    grid-area: seccion;
+  }
+  .footer{
+    grid-area: footer;
+  }
+.contenido{
+  width: 20px;
+  max-width: 40px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 2. 1fr 1 fr ;  
+}:end
+
+.contenedor> div,
+.contenedor .header,
+.contenedor .main,
+.contenedor .footer {
+  grid-column-start: 1;
+  border-radius: 4px; 
+}
+.contenedor .header {
+  
+  
+
+}
+.contenedor .contenido{
+  
+}
+.contenedor .footer{
+
+}
+
+  
+ .header-{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+ }
+
+ .header-flex nav a{
+  list-style: none;
+  display: row;
+background-color: black;
+padding: 0,5px;
+margin: 0,5x;
+
+
+ }
+.header-flex nav a{
+  text-decoration: none;
+  color: rgb(231, 218, 218);
+  font-weight: 400;
+}
+
+ 
+ 
+
+ @media (max-width: 700px) {
+.h1-informacion{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr)
+  
+}
+
+ .header-menu{
+  
+  grid-template-areas: menu "img";
+
+  
+ }
+ .main-entrenar{
+  grid-template-columns: (2fr 1fr);
+  grid-template-areas: "1img" "2img";
+
+ }
+ .seccion-seccion{
+  text-align: center;
+ }
+ 
+ .footer-flex{
+  flex-direction: column;
+ }
+
+  
+    
+
+    
+
+
+  
+  
+ 
+
+ 
+
+
+
+  
+
