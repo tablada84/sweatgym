@@ -317,8 +317,21 @@ li{
     ;
     align-items: stretch;
   }
+.contenedor{
 
-  .informacion{
+    display: grid;
+    grid-template-columns:repeat(2fr 1fr);
+    grid-template-rows: 0,3fr 1fr 1f ;
+    padding: 15px;
+    grid-template-areas: 
+    
+    
+    "galeria galeria"
+    "menu menu"
+    ;
+    align-items: stretch;
+  }
+  .galeria{
     grid-area: informacion;
     margin: 30px;
     
@@ -326,17 +339,7 @@ li{
   .header{
     grid-area: menu;
     margin: 30px;
-  }
-  .entrenar{
-    grid-area: entrenar;
-    margin: 30px;
-  }
-  .seccion{
-    grid-area: seccion;
-    margin: 15px;
-  }
-  .footer{
-    grid-area: footer;
+ 
   }
 .contenido{
   width: 20px;
@@ -345,26 +348,18 @@ li{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 2. 1fr 1 fr ;  
-}:end
+}
 
 .contenedor> div,
 .contenedor .header,
-.contenedor .main,
-.contenedor .footer {
-  grid-column-start: 1;
-  border-radius: 4px; 
-}
-.contenedor .header {
+
+
   
   
 
-}
-.contenedor .contenido{
-  
-}
-.contenedor .footer{
 
-}
+
+
 
   
  .header-{
