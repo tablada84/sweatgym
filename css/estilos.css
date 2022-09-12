@@ -332,7 +332,7 @@ li{
     align-items: stretch;
   }
   .galeria{
-    grid-area: informacion;
+    grid-area: galeria;
     margin: 30px;
     
   }
