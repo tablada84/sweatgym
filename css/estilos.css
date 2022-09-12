@@ -5,13 +5,21 @@
 /*index*/
 /* cambia la medida del rem, 1 rem = 10 px*/
 
+*{
+  margin: 0;
+  padding: 0;
+}
 
 html {
   font-size: 62,5%;
 }
 
-/*index*/
 
+.header{
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+}
 
 
 body {
@@ -22,6 +30,7 @@ body {
   padding: 15px;
   border: 10px rgb(80, 80, 148);
 }
+
 
 /*las clases son para que algo se diferencie del resto*/
 .colorAzul {
@@ -101,16 +110,6 @@ body {
 
 
 
-
-
-a{
-  background-color: rgb(31, 31, 41);
-}
-body {
-  .titulo
-  background-color: color:
-
-}
 .footer{
   color: grey;
   
@@ -193,13 +192,6 @@ li{
   text-align: center;
   background-color: rgb(179, 159, 159);
 }
-
-header{
-  background-size: 100px;
-  
-}
-  
-
 
 
   background-color: grey;
