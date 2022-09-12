@@ -18,7 +18,7 @@ html {
 .header{
   display: flex;
   height: 100px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 
