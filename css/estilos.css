@@ -148,6 +148,7 @@ h1{
 h2{
   font-size: 15px;
   flex: 15px;
+  margin: 15px;
   
 }
 
@@ -260,10 +261,8 @@ li{
   border: solid black 5px;
   justify-content: center;
 }
-.header h1{
-  font-size: 2,75rem;
-  margin-top: 2rem;
-}
+
+
 .-flex-contenedor{
   display: flex;
   flex-direction: column;
@@ -292,7 +291,7 @@ li{
 .header-menu div{
   display: flex;
   justify-content: left;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
   .menuPrincipal{
@@ -330,17 +329,19 @@ li{
   }
   .entrenar{
     grid-area: entrenar;
+    margin: 30px;
   }
   .seccion{
     grid-area: seccion;
+    margin: 15px;
   }
   .footer{
     grid-area: footer;
   }
 .contenido{
   width: 20px;
-  max-width: 40px;
-  margin: 20px auto;
+  max-width: 50px;
+  margin: 30px auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 2. 1fr 1 fr ;  
