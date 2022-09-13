@@ -152,6 +152,11 @@ h2{
   
 }
 
+p{
+  text-align: 16px;
+  text-align: start;
+}
+
 
 
 .principal__tituloTres{
@@ -224,7 +229,17 @@ li{
   font-size: 50px;
   border: solid black 3px;
   justify-content: center;
+  filter: grayscale(100%);
+  transition: all 2s;
 }
+.flexImagen img:hover{
+  height: 200px;
+  width: 300px;
+  margin: 20px;
+  filter: none;
+}
+
+
 .flexPictureEntrenar{
   background-color: aliceblue;
   text-align: center;
@@ -235,7 +250,7 @@ li{
   height: 150px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .flexpicture img{
   
@@ -244,26 +259,37 @@ li{
   font-size: 50px;
   border: solid black 2px;
   justify-content: center;
+  filter: grayscale(100%);
+  transition: all 2s;
 }
 
-.flexFotosRecientes{
+.flexpicture img:hover{
+  height: 160px;
+  width: 180px;
+  margin: 20px;
+  filter: none;
+
+
+}
+.flexfotoRecientes{
   background-color: beige;
   text-align: center;
   font-size: 15px;
   flex-wrap: wrap;
 }
 
-.flexfoto img{
-
-  width: 200px;
-  height: 200px;
+  .flexfoto img{
+    width: 150px;
+  height: 150px;
   font-size: 50px;
-  border: solid black 5px;
+  border: solid black 2px;
   justify-content: center;
-}
+  
+  }
+ 
 
 
-.-flex-contenedor{
+.flex-contenedor{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -272,31 +298,35 @@ li{
 .footer-home div{
   display: flex;
   justify-content: center;
+  margin: 10px;
 }
 .footer-home p{
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
-.main-Motivate div{
+.main-contenido {
   display: flex;
   justify-content: center;
+}
+
+.main-Motivate div{
+  display: flex;
+  justify-content: start;
   
 }
 .main-Motivate p{
   display: flex;
-  justify-content: center;
+  justify-content: start;
   margin-top: 10px;
 }
 .header-menu div{
   display: flex;
-  justify-content: left;
+  justify-content: start;
   margin-top: 50px;
 }
 
   .menuPrincipal{
-    
-    
     flex-direction: row;
   }
 
@@ -317,6 +347,20 @@ li{
     ;
     align-items: stretch;
   }
+
+  .informacion{
+    grid-area: informacion;
+    margin: 30px;
+  }.header{
+    grid-area: menu;
+    margin: 30px;
+  }
+  .entrenar{
+    grid-area: seccion;
+    margin: 20px;
+    text-align: center;
+  }
+
 .contenido{
   width: 20px;
   max-width: 50px;
@@ -326,17 +370,30 @@ li{
   grid-template-rows: 2. 1fr 1 fr ;  
 }
 
+.contenedor> div,
+.contenedor .header,
+.contenedor .main,
+.contenedor .footer
 
+.h1-informacion{
+  grid-template-areas: menu "img";
+}
 
+ .header-menu{
+  
+  grid-template-areas: menu "img";
 
   
-  
+ }
+ .main-entrenar{
+  grid-template-columns: (2fr 1fr);
+  grid-template-areas: "1img" "2img";
 
-
-
-
-
-  
+ }
+ .seccion-seccion{
+  text-align: center;
+ }
+ 
  .header-{
   display: flex;
   flex-direction: row;
