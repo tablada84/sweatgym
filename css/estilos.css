@@ -317,30 +317,7 @@ li{
     ;
     align-items: stretch;
   }
-.contenedor{
 
-    display: grid;
-    grid-template-columns:repeat(2fr 1fr);
-    grid-template-rows: 0,3fr 1fr 1f ;
-    padding: 15px;
-    grid-template-areas: 
-    
-    
-    "galeria galeria"
-    "menu menu"
-    ;
-    align-items: stretch;
-  }
-  .galeria{
-    grid-area: galeria;
-    margin: 30px;
-    
-  }
-  .header{
-    grid-area: menu;
-    margin: 30px;
- 
-  }
 .contenido{
   width: 20px;
   max-width: 50px;
@@ -350,8 +327,7 @@ li{
   grid-template-rows: 2. 1fr 1 fr ;  
 }
 
-.contenedor> div,
-.contenedor .header,
+
 
 
   
