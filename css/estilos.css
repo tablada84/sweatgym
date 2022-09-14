@@ -207,13 +207,13 @@ li{
   flex-direction: row;
   justify-content: wrap start;
 
- 
+ /* flexbox imagenes */
  
 
 .flexImagenTrin{
   background-color: grey;
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .flexImagen{
@@ -249,7 +249,7 @@ li{
   background-color: ;
   height: 150px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 .flexpicture img{
@@ -257,7 +257,7 @@ li{
   width: 150px;
   height: 150px;
   font-size: 50px;
-  border: solid black 2px;
+  border: solid black 3px;
   justify-content: center;
   filter: grayscale(100%);
   transition: all 2s;
@@ -323,7 +323,7 @@ li{
 .header-menu div{
   display: flex;
   justify-content: start;
-  margin-top: 50px;
+  
 }
 
   .menuPrincipal{
@@ -362,7 +362,7 @@ li{
   }
 
 .contenido{
-  width: 20px;
+  width: 50px;
   max-width: 50px;
   margin: 30px auto;
   display: grid;
