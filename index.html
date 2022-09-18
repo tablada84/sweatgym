@@ -8,43 +8,62 @@
     <title>SWEATGYM</title>
 
     <link rel="shortcut icon" href="multimedia/sweatgym.jpg" type="image/x-icon">
-
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
-    <img src="multimedia/sweatgym.jpg" alt="logo">
-
-    <div class="contenedor">
-        <header class="header-pagina">
-            <nav class="header-page">
-
-                <a href="paginas/contactos.html">ir a contacto</a>
-                <a href="paginas/galeria.html">ir a Galeria</a>
-                <a href="paginas/imagenes.html">ir a Imagenes</a>
-                <a href="paginas/informacion.html">ir a informacion</a>
-                <a href="index.html">inicio</a>
-
-            </nav>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./multimedia/sweatgym.jpg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <header>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Informacion.html">Informacion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Imagenes.html">Imagenes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Contactos.html">Contactos</a>
+                        </li>
+                        <li class="nave-item">
+                            <a class="nav-link active" aria-current="page" href="Galeria.html">Galeria</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
         </header>
-    </div>
+    </nav>
+    <header class="header">
+        <div>
+            <a href="paginas/contactos.html"> contacto</a>
+            <a href="paginas/galeria.html"> Galeria</a>
+            <a href="paginas/imagenes.html"> Imagenes</a>
+            <a href="paginas/informacion.html"> informacion</a>
+            <a href="index.html">inicio</a>
+        </div>
+    </header>
 
-
-
-
-
-    <main class="principal">
+    <section class="principal">
         <h2 class="principal__titulo">EL CAMBIO ESTA EN VOS</h2>
 
-        <<<<<<< HEAD <h2 class="principal__subtitulo">LA CLAVE DEL EXITO ESTA EN LA ALIMENTACION</h2>
-            =======
-            <h2 class="principal__subtitulo">EL EXISTO ESTA EN LA ALIMENTACION</h2>
-            >>>>>>> nuevas
+        <h2 class="principal__subtitulo">EL EXISTO ESTA EN LA ALIMENTACION</h2>
 
-            <h2 class="principal__tituloTres">SWEATGYM</h2>
-            <h2 class="principal__titulotres principal__titulo--gris"></h2>
+        <h2 class="principal__tituloTres">SWEATGYM</h2>
+        <h2 class="principal__titulotres principal__titulo--gris"></h2>
 
-    </main>
+    </section>
 
     <section class="Galeria">
 
@@ -75,72 +94,82 @@
 
     <h1 class="ImagenTrin"></h1>
     <main class="flexImagen">
-        <p>
-            Eres lo que comes.
-            Solo porque no estés enfermo no significa que estés sano.
-            Basura en la basura.
-            La mayor riqueza de una persona es su salud.
-            Si no puedes pronunciarlo, no lo comas.
-            Cuida tu cuerpo. Es el único lugar que tienes para vivir.
-            Si no cuidas tu cuerpo, ¿dónde vas a vivir?
-            Comer comida asquerosa no es una recompensa, es un castigo.
-            La primera riqueza es la salud nuestra.
-            Hago ejercicio por la calidad de vida que disfruto.
-            La base para toda felicidad es la buena salud</p>
+        <img src="./multimedia/imagen 5.jpg" alt="">
+        <img src="./multimedia/imagen 6.jpg" alt="">
+        <img src="./multimedia/imagen 7.jpg" alt="">
+        <img src="./multimedia/foto 8.jpg" alt="">
     </main>
 
     <!-- formularios -->
-    <br>
-
-    <form action="">
-
-
-        <label for="nombre">nombre:</label>
-        <input type="text" name="">
-        <br>
-        <label for="correo">correo</label>
-        <input type="email" name="correo" id="">
-
-        <br>
-
-        <label for="mensaje"></label>
-        <textarea cols="20" rows="10" name="mensaje"></textarea>
-
-
-        <br>
-
-        <!-- radio(solo una opcion) -->
-        <label for="genero">genero</label>
-        <input type="radio" value="M" name="genero">M
-        <input type="radio" value="" name="genero">F
 
 
 
-
-
-        <!-- MENU DESPLEGABLE -->
-        <label for="zona">de que zona sos?</label>
-
-
-        <select name="">
-
-            <option value="norte">norte</option>
-            <option value="sur">sur</option>
-        </select>
-
-        <input type="button"><!-- no hace nada -->
-
-        <input type="submit"><!-- envia los datos -->
-
-        <input type="reset"><!-- resetea el formulario -->
     </form>
+    <section class="container-fluid">
+        <h2 class="text-center h3 mt-4 mb-4">Contactos</h2>
+        <div class="row">
+
+            <article class="col-md-6">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress2" class="form-label">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2"
+                            placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputState" class="form-label">State</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="inputZip" class="form-label">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Check me out
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                </form>
 
 
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.309888999891!2d-64.22301248485289!3d-31.378017781416858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298df8edf790d%3A0x9fe7c4093a9e66f5!2sSweat%20Gym!5e0!3m2!1ses!2sar!4v1660960998359!5m2!1ses!2sar"
-        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <iframe src="" frameborder="0"></iframe>
+
+            </article>
+            <article class="col-md-6">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.3100550569343!2d-64.22301248515929!3d-31.37801320153604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298df8edf790d%3A0x9fe7c4093a9e66f5!2sSweat%20Gym!5e0!3m2!1ses!2sar!4v1663422054916!5m2!1ses!2sar"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+
+        </div>
+    </section>
+
+
 
 
     <hr>
@@ -158,6 +187,10 @@
         </div>
 
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
