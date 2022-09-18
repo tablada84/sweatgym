@@ -249,7 +249,7 @@ li{
   background-color: ;
   height: 150px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
 }
 .flexpicture img{
