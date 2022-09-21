@@ -1,38 +1,46 @@
 /* SINTAXIS */
-
-/* CLASS */
-
-/*index*/
-/* cambia la medida del rem, 1 rem = 10 px*/
-
-*{
+* {
   margin: 0;
   padding: 0;
 }
+/* CLASS */
+
+
+/* Todos mis h1 van a tener color negro */
+h1{
+  color: black;
+
+  /* ID */
+
+#fondoGris{
+  background-color: grey;
+}
+  
+}
+/*index*/
+/* cambia la medida del rem, 1 rem = 10 px*/
+
+
 
 html {
-  font-size: 62,5%;
+  font-size: 62, 5%;
 }
 
-
-.header{
+.header-flex {
   display: flex;
-  height: 100px;
-  justify-content: space-between;
+  flex-direction: row;
 }
-
 
 body {
   background-color: rgb(109, 97, 97);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-position: center;
   margin: 15px;
   padding: 15px;
   border: 10px rgb(80, 80, 148);
 }
 
-
-/*las clases son para que algo se diferencie del resto*/
+/*las class son para que algo se diferencie del resto*/
 .colorAzul {
   color: rgb(80, 71, 71);
   font-size: 15px;
@@ -55,23 +63,17 @@ body {
   text-align: left;
 }
 
-.colorazul{
+.colorazul {
   color: rgb(80, 71, 71);
   font-size: 15px;
   font-variant-position: super;
   text-align: left;
-
-
-  
 }
-.tituloInicio{
+.tituloInicio {
   color: rgb(85, 70, 70);
   font-style: italic;
   font-size: 50px;
   text-align: center;
-  
-
-  
 }
 
 .tituloContactos {
@@ -79,15 +81,12 @@ body {
   font-style: italic;
   font-size: 50px;
   text-align: center;
-  
-  
 }
 .tituloImagenes {
   color: black;
   font-style: italic;
   font-size: 50px;
   text-align: center;
-
 }
 
 .tituloInformacion {
@@ -95,7 +94,6 @@ body {
   font-style: italic;
   font-size: 50px;
   text-align: center;
-  
 }
 
 .tituloGaleria {
@@ -103,92 +101,68 @@ body {
   font-style: italic;
   font-size: 50px;
   text-align: center;
-  
 }
-/*TODOS MIS H1 VAN A TENER COLOR AMARILLO*/
 
 
-
-
-.footer{
+.footer {
   color: grey;
-  
+
   padding: 20px;
-  
 }
 
 .redesFlotantes img {
-
   width: 50px;
 }
 .redesFlotantes img {
   width: 50px;
 }
 
-  
-.menuPrincipal{
-  
-  
+.menuPrincipal {
 }
-.menuPrincipal ul{
+.menuPrincipal ul {
   list-style-type: circle;
   text-align: right;
   font-size: 20px;
-
-  
-  
-}
-h1{
-  text-align: left;
-  background-color: 
-  
-  
 }
 
-h2{
+
+h2 {
   font-size: 15px;
   flex: 15px;
   margin: 15px;
-  
 }
 
-p{
+p {
   text-align: 16px;
   text-align: start;
 }
 
-
-
-.principal__tituloTres{
+.principal__tituloTres {
   font-size: 20px;
   background-color: rgb(167, 150, 150);
   padding: 30px;
   border: solid 5px;
   margin: 30px;
   background-position: center;
-
 }
-.principal__tituloTres--gris{
-
+.principal__tituloTres--gris {
   background-color: rgb(29, 17, 17);
   margin: 50px;
   padding: 50px;
   border: 5px black;
 }
 
-.galeria{
+.galeria {
   background-color: beige;
 }
 
-
-ul{
+ul {
   list-style: circle;
-  
-  text-align: left;
 
+  text-align: left;
 }
 
-li{
+li {
   display: inline-flex;
   width: 25%;
   position: relative;
@@ -199,32 +173,30 @@ li{
   background-color: rgb(179, 159, 159);
 }
 
+background-color: grey;
+height: 400px;
 
-  background-color: grey;
-  height: 400px;
+display: flex;
+flex-direction: row;
+justify-content: wrap start;
 
-  display: flex;
-  flex-direction: row;
-  justify-content: wrap start;
+/* flexbox imagenes */
 
- /* flexbox imagenes */
- 
-
-.flexImagenTrin{
+.flexImagenTrin {
   background-color: grey;
   text-align: center;
   font-size: 50px;
 }
 
-.flexImagen{
+.flexImagen {
   background-color: ;
   height: 150px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
-.flexImagen img{
-   width: 150px;
+.flexImagen img {
+  width: 150px;
   height: 150px;
   font-size: 50px;
   border: solid black 3px;
@@ -232,28 +204,26 @@ li{
   filter: grayscale(100%);
   transition: all 2s;
 }
-.flexImagen img:hover{
+.flexImagen img:hover {
   height: 200px;
   width: 300px;
   margin: 20px;
   filter: none;
 }
 
-
-.flexPictureEntrenar{
+.flexPictureEntrenar {
   background-color: aliceblue;
   text-align: row;
-  font-size: 30px; 
+  font-size: 30px;
 }
-.flexpicture{
+.flexpicture {
   background-color: ;
   height: 150px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
-.flexpicture img{
-  
+.flexpicture img {
   width: 150px;
   height: 150px;
   font-size: 50px;
@@ -263,44 +233,51 @@ li{
   transition: all 2s;
 }
 
-.flexpicture img:hover{
+.flexpicture img:hover {
   height: 160px;
   width: 180px;
   margin: 20px;
   filter: none;
-
-
 }
-.flexfotoRecientes{
+.flexfotoRecientes {
   background-color: beige;
   text-align: center;
   font-size: 15px;
   flex-wrap: wrap;
 }
 
-  .flexfoto img{
-    width: 150px;
+.flexfoto img {
+  width: 150px;
   height: 150px;
   font-size: 50px;
   border: solid black 2px;
   justify-content: center;
+}
+.flex-Seccion{
+  display: flex;
+  text-align: start;
+  margin: 15px;
   
-  }
- 
-
-
-.flex-contenedor{
+}
+.flex-Historia p{
+display: flex;
+justify-content: flex-start;
+margin-top: 10px;
+}
+.flex-contenedor {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.footer-home div{
+.footer-home div {
   display: flex;
   justify-content: center;
   margin: 10px;
 }
-.footer-home p{
+
+
+.footer-home p {
   display: flex;
   justify-content: center;
   margin-top: 10px;
@@ -310,154 +287,121 @@ li{
   justify-content: center;
 }
 
-.main-Motivate div{
+.main-Motivate div {
   display: flex;
   justify-content: start;
-  
 }
-.main-Motivate p{
+.main-Motivate p {
   display: flex;
   justify-content: start;
   margin-top: 10px;
 }
-.header-menu div{
+.header-menu div {
   display: flex;
   justify-content: start;
-  
 }
 
-  .menuPrincipal{
-    flex-direction: row;
-  }
+.menuPrincipal {
+  flex-direction: row;
+}
 
-  .contenedor{
-
-    display: grid;
-    grid-template-columns:repeat(2fr 1fr);
-    grid-template-rows: 0,3fr 1fr 1fr 1fr 1fr;
-    padding: 15px;
-    grid-template-areas: 
-    
-    
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(2fr 1fr);
+  grid-template-rows: 0, 3fr 1fr 1fr 1fr 1fr;
+  padding: 15px;
+  grid-template-areas:
     "Informacion informacion"
     "menu menu"
     "entrenar entrenar"
     "seccion seccion"
-    "footer footer"
-    ;
-    align-items: stretch;
-  }
+    "footer footer";
+  align-items: stretch;
+}
 
-  .informacion{
-    grid-area: informacion;
-    margin: 30px;
-  }.header{
-    grid-area: menu;
-    margin: 30px;
-  }
-  .entrenar{
-    grid-area: seccion;
-    margin: 20px;
-    text-align: center;
-  }
+.informacion {
+  grid-template-areas: informacion;
+  margin: 30px;
+}
+.header {
+  grid-area: menu;
+  margin: 30px;
+}
+.entrenar {
+  grid-area: seccion;
+  margin: 20px;
+  text-align: center;
+}
 
-.contenido{
+.contenido {
   width: 50px;
   max-width: 50px;
   margin: 30px auto;
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 2. 1fr 1 fr ;  
+  grid-template-rows: 2 1fr 1 fr;
 }
 
-.contenedor> div,
+.contenedor > div,
 .contenedor .header,
 .contenedor .main,
-.contenedor .footer
-
-.h1-informacion{
+.contenedor .footer .h1-informacion {
   grid-template-areas: menu "img";
 }
 
- .header-menu{
-  
+.header-menu {
   grid-template-areas: menu "img";
-
-  
- }
- .main-entrenar{
+}
+.main-entrenar {
   grid-template-columns: (2fr 1fr);
   grid-template-areas: "1img" "2img";
-
- }
- .seccion-seccion{
+}
+.seccion-seccion div{
   text-align: center;
- }
- 
- .header-{
+  
+}
+
+.header- {
   display: flex;
   flex-direction: row;
   justify-content: start;
   align-items: center;
- }
+}
 
- .header-flex nav a{
+.header-flex nav a {
   list-style: none;
   display: row;
-background-color: black;
-padding: 0,5px;
-margin: 0,5x;
-
-
- }
-.header-flex nav a{
+  background-color: black;
+  padding: 0, 5px;
+  margin: 0, 5x;
+}
+.header-flex nav a {
   text-decoration: none;
   color: rgb(231, 218, 218);
   font-weight: 400;
 }
 
- 
- 
+/* media cueries */
 
- @media (max-width: 700px) {
-.h1-informacion{
-  display: grid;
-  grid-template-columns: repeat(1, 1fr)
+@media (max-width: 700px) {
+  .h1-informacion {
+    display: flex;
+    flex-wrap: 1 fr 1;
+  }
+
+  .header-menu {
+    flex-wrap: menu "img";
+  }
   
+
+.seccion-seccion p{
+  flex-direction: column;
+  text-align: center;
 }
 
- .header-menu{
-  
-  grid-template-areas: menu "img";
-
-  
- }
- .main-entrenar{
-  grid-template-columns: (2fr 1fr);
-  grid-template-areas: "1img" "2img";
-
- }
- .seccion-seccion{
-  text-align: center;
- }
- 
- .footer-flex{
+.footer-flex {
   flex-direction: column;
- }
+}
+/* gradientes */
 
-  
-    
-
-    
-
-
-  
-  
- 
-
- 
-
-
-
-  
 
