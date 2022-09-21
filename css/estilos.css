@@ -1,4 +1,8 @@
-/* SINTAXIS */
+/* SINTAXIS
+selector{
+  propiedad: valor;
+  propiedad2: valor; */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,19 +12,34 @@
 
 /* Todos mis h1 van a tener color negro */
 h1{
+  text-align: center;
   color: black;
-
+  font-size: 35px;
+}
+h2{
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  padding: 20px;
+  margin-top: 20px;
+}
+p{
+  text-justify: auto;
+  border-width: 30px;
+  
+}
+  
   /* ID */
+
+
 
 #fondoGris{
   background-color: grey;
 }
   
-}
+
 /*index*/
 /* cambia la medida del rem, 1 rem = 10 px*/
-
-
 
 html {
   font-size: 62, 5%;
@@ -46,6 +65,7 @@ body {
   font-size: 15px;
   font-variant-position: super;
   text-align: left;
+  line-height: 2;
   margin: 10px;
 }
 
@@ -70,7 +90,7 @@ body {
   text-align: left;
 }
 .tituloInicio {
-  color: rgb(85, 70, 70);
+  color: black 15px;
   font-style: italic;
   font-size: 50px;
   text-align: center;
@@ -104,11 +124,6 @@ body {
 }
 
 
-.footer {
-  color: grey;
-
-  padding: 20px;
-}
 
 .redesFlotantes img {
   width: 50px;
@@ -117,36 +132,25 @@ body {
   width: 50px;
 }
 
-.menuPrincipal {
-}
-.menuPrincipal ul {
+
+
+.menuPrincipal  {
   list-style-type: circle;
-  text-align: right;
-  font-size: 20px;
+  text-align: justify center;
+  font-size: 30px;
 }
 
-
-h2 {
-  font-size: 15px;
-  flex: 15px;
-  margin: 15px;
-}
-
-p {
-  text-align: 16px;
-  text-align: start;
-}
 
 .principal__tituloTres {
-  font-size: 20px;
-  background-color: rgb(167, 150, 150);
-  padding: 30px;
+  font-size: 15px;
+  background-color: rgb(145, 131, 131);
+  padding: 15px;
   border: solid 5px;
-  margin: 30px;
+  margin: 15px;
   background-position: center;
 }
 .principal__tituloTres--gris {
-  background-color: rgb(29, 17, 17);
+  background-color: rgb(56, 50, 50);
   margin: 50px;
   padding: 50px;
   border: 5px black;
@@ -215,13 +219,16 @@ justify-content: wrap start;
   background-color: aliceblue;
   text-align: row;
   font-size: 30px;
+  
 }
 .flexpicture {
   background-color: ;
   height: 150px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
+  padding-top: 3px;
+  margin-inline: 3px;
 }
 .flexpicture img {
   width: 150px;
