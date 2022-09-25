@@ -138,12 +138,13 @@ body {
   list-style-type: circle;
   text-align: justify center;
   font-size: 30px;
+  
 }
 
 
 .principal__tituloTres {
   font-size: 15px;
-  background-color: rgb(145, 131, 131);
+  background-color: blue;
   padding: 15px;
   border: solid 5px;
   margin: 15px;
@@ -162,7 +163,6 @@ body {
 
 ul {
   list-style: circle;
-
   text-align: left;
 }
 
@@ -170,7 +170,7 @@ li {
   display: inline-flex;
   width: 25%;
   position: relative;
-  font-size: 14px;
+  font-size: 16px;
   padding: top;
   margin: 20px;
   text-align: center;
@@ -388,7 +388,7 @@ margin-top: 10px;
   font-weight: 400;
 }
 
-/* media cueries */
+/* media queries */
 
 @media (max-width: 700px) {
   .h1-informacion {
