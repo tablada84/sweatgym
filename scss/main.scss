@@ -22,9 +22,14 @@ h2 {
   padding: 20px;
   margin-top: 20px;
 }
+
+/* CAMBIA LA MEDIDA DEL REM. 1 REM = 10PX */
+
 html {
   font-size: 62, 5%;
 }
+/* INDEX */
+
 body {
   background-color: rgb(53, 53, 187);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -61,20 +66,19 @@ body {
 
 ul {
   list-style: circle;
-
   text-align: left;
+  li {
+    display: inline-flex;
+    width: 25%;
+    position: relative;
+    font-size: 14px;
+    padding: top;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(248, 245, 245);
+  }
 }
 
-li {
-  display: inline-flex;
-  width: 25%;
-  position: relative;
-  font-size: 14px;
-  padding: top;
-  margin: 20px;
-  text-align: center;
-  background-color: rgb(179, 159, 159);
-}
 .redesFlotantes img {
   width: 50px;
   text-align: center;
@@ -112,6 +116,36 @@ li {
   filter: none;
 }
 
+.flexfotoRecientes {
+  background-color: beige;
+  text-align: center;
+  font-size: 15px;
+  flex-wrap: wrap;
+}
+.flexfoto img {
+  width: 150px;
+  height: 150px;
+  font-size: 50px;
+  border: solid black 2px;
+  justify-content: center;
+}
+
+/* sass galeria variables, important */
+
+ul {
+  list-style: circle;
+  text-align: relative;
+  li {
+    display: inline-flex;
+    width: 30%;
+    position: relative;
+    font-size: 16px;
+    padding: top;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(238, 236, 248);
+  }
+}
 .flexPictureEntrenar {
   background-color: aliceblue;
   text-align: center;
@@ -143,16 +177,19 @@ li {
   margin: 20px;
   filter: none;
 }
-.flexfotoRecientes {
-  background-color: beige;
-  text-align: center;
-  font-size: 15px;
-  flex-wrap: wrap;
-}
-.flexfoto img {
-  width: 150px;
-  height: 150px;
-  font-size: 50px;
-  border: solid black 2px;
-  justify-content: center;
+
+.footer-home div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  img {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  p {
+    display: flex;
+    justify-content: start;
+  }
 }

@@ -1,3 +1,59 @@
+ul {
+  list-style: circle;
+  text-align: relative; }
+  ul li {
+    display: inline-flex;
+    width: 30%;
+    position: relative;
+    font-size: 16px;
+    padding: top;
+    margin: 20px;
+    text-align: center;
+    background-color: #eeecf8; }
+
+.flexPictureEntrenar {
+  background-color: aliceblue;
+  text-align: center;
+  font-size: 50px; }
+
+.flexpicture {
+  background-color: none;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 15px;
+  margin-inline: 15px;
+  margin-bottom: 80px; }
+
+.flexpicture img {
+  width: 150px;
+  height: 150px;
+  font-size: 50px;
+  border: solid black 3px;
+  justify-content: center;
+  filter: grayscale(100%);
+  transition: all 2s; }
+
+.flexpicture img:hover {
+  height: 200px;
+  width: 300px;
+  margin: 20px;
+  filter: none; }
+
+.footer-home div {
+  display: flex;
+  justify-content: start;
+  align-items: center; }
+  .footer-home div img {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+    padding: 10px; }
+  .footer-home div p {
+    display: flex;
+    justify-content: start; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -14,9 +70,11 @@ h2 {
   padding: 20px;
   margin-top: 20px; }
 
+/* CAMBIA LA MEDIDA DEL REM. 1 REM = 10PX */
 html {
   font-size: 62, 5%; }
 
+/* INDEX */
 body {
   background-color: #3535bb;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -50,16 +108,15 @@ body {
 ul {
   list-style: circle;
   text-align: left; }
-
-li {
-  display: inline-flex;
-  width: 25%;
-  position: relative;
-  font-size: 14px;
-  padding: top;
-  margin: 20px;
-  text-align: center;
-  background-color: #b39f9f; }
+  ul li {
+    display: inline-flex;
+    width: 25%;
+    position: relative;
+    font-size: 14px;
+    padding: top;
+    margin: 20px;
+    text-align: center;
+    background-color: #f8f5f5; }
 
 .redesFlotantes img {
   width: 50px;
@@ -96,6 +153,33 @@ li {
   margin: 20px;
   filter: none; }
 
+.flexfotoRecientes {
+  background-color: beige;
+  text-align: center;
+  font-size: 15px;
+  flex-wrap: wrap; }
+
+.flexfoto img {
+  width: 150px;
+  height: 150px;
+  font-size: 50px;
+  border: solid black 2px;
+  justify-content: center; }
+
+/* sass galeria variables, important */
+ul {
+  list-style: circle;
+  text-align: relative; }
+  ul li {
+    display: inline-flex;
+    width: 30%;
+    position: relative;
+    font-size: 16px;
+    padding: top;
+    margin: 20px;
+    text-align: center;
+    background-color: #eeecf8; }
+
 .flexPictureEntrenar {
   background-color: aliceblue;
   text-align: center;
@@ -126,15 +210,15 @@ li {
   margin: 20px;
   filter: none; }
 
-.flexfotoRecientes {
-  background-color: beige;
-  text-align: center;
-  font-size: 15px;
-  flex-wrap: wrap; }
-
-.flexfoto img {
-  width: 150px;
-  height: 150px;
-  font-size: 50px;
-  border: solid black 2px;
-  justify-content: center; }
+.footer-home div {
+  display: flex;
+  justify-content: start;
+  align-items: center; }
+  .footer-home div img {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+    padding: 10px; }
+  .footer-home div p {
+    display: flex;
+    justify-content: start; }
