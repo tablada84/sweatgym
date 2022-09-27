@@ -131,21 +131,30 @@ ul {
 }
 
 /* sass galeria variables, important */
-
-ul {
-  list-style: circle;
-  text-align: relative;
-  li {
-    display: inline-flex;
-    width: 30%;
-    position: relative;
-    font-size: 16px;
-    padding: top;
-    margin: 20px;
-    text-align: center;
-    background-color: rgb(238, 236, 248);
+.house-flex {
+  display: flex;
+  flex-direction: column;
+  .actividades-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ul {
+    list-style: circle;
+    text-align: relative;
+    li {
+      display: inline-flex;
+      width: 30%;
+      position: relative;
+      font-size: 16px;
+      padding: top;
+      margin: 20px;
+      text-align: center;
+      background-color: rgb(238, 236, 248);
+    }
   }
 }
+
 .flexPictureEntrenar {
   background-color: aliceblue;
   text-align: center;

@@ -1,15 +1,22 @@
-ul {
-  list-style: circle;
-  text-align: relative; }
-  ul li {
-    display: inline-flex;
-    width: 30%;
-    position: relative;
-    font-size: 16px;
-    padding: top;
-    margin: 20px;
-    text-align: center;
-    background-color: #eeecf8; }
+.house-flex {
+  display: flex;
+  flex-direction: column; }
+  .house-flex .actividades-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .house-flex ul {
+    list-style: circle;
+    text-align: relative; }
+    .house-flex ul li {
+      display: inline-flex;
+      width: 30%;
+      position: relative;
+      font-size: 16px;
+      padding: top;
+      margin: 20px;
+      text-align: center;
+      background-color: #eeecf8; }
 
 .flexPictureEntrenar {
   background-color: aliceblue;
@@ -167,18 +174,25 @@ ul {
   justify-content: center; }
 
 /* sass galeria variables, important */
-ul {
-  list-style: circle;
-  text-align: relative; }
-  ul li {
-    display: inline-flex;
-    width: 30%;
-    position: relative;
-    font-size: 16px;
-    padding: top;
-    margin: 20px;
-    text-align: center;
-    background-color: #eeecf8; }
+.house-flex {
+  display: flex;
+  flex-direction: column; }
+  .house-flex .actividades-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .house-flex ul {
+    list-style: circle;
+    text-align: relative; }
+    .house-flex ul li {
+      display: inline-flex;
+      width: 30%;
+      position: relative;
+      font-size: 16px;
+      padding: top;
+      margin: 20px;
+      text-align: center;
+      background-color: #eeecf8; }
 
 .flexPictureEntrenar {
   background-color: aliceblue;
