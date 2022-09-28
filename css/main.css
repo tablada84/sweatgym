@@ -1,3 +1,22 @@
+/* CONDICIONALES */
+body {
+  background-color: lightblue; }
+
+/* DECLARAR EL MAPA */
+/* CREAR EL BUCLE */
+.btn--redes {
+  background-color: blue; }
+
+.btn--redes {
+  background-color: lightblue; }
+
+/* MAP GET */
+/* DECLAR EL MAPA */
+.cajaMap {
+  background-color: blue;
+  text-align: star;
+  padding: 10px; }
+
 .house-flex {
   display: flex;
   flex-direction: column; }
@@ -77,6 +96,10 @@ h2 {
   padding: 20px;
   margin-top: 20px; }
 
+ul {
+  color: black;
+  font-size: 30px; }
+
 /* CAMBIA LA MEDIDA DEL REM. 1 REM = 10PX */
 html {
   font-size: 62, 5%; }
@@ -109,30 +132,6 @@ body {
   padding: 50px;
   border: 5px black; }
 
-.galeria {
-  background-color: beige; }
-
-ul {
-  list-style: circle;
-  text-align: left; }
-  ul li {
-    display: inline-flex;
-    width: 25%;
-    position: relative;
-    font-size: 14px;
-    padding: top;
-    margin: 20px;
-    text-align: center;
-    background-color: #f8f5f5; }
-
-.redesFlotantes img {
-  width: 50px;
-  text-align: center; }
-
-.redesFlotantes img {
-  width: 50px;
-  text-align: center; }
-
 .flexImagenTrin {
   background-color: grey;
   text-align: center;
@@ -159,6 +158,46 @@ ul {
   width: 300px;
   margin: 20px;
   filter: none; }
+
+.footer-home {
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  margin: 10px; }
+  .footer-home .footer-home div {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: aliceblue; }
+  .footer-home p {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    padding-top: 10px; }
+
+.galeria {
+  background-color: beige; }
+
+ul {
+  list-style: circle;
+  text-align: left; }
+  ul li {
+    display: inline-flex;
+    width: 25%;
+    position: relative;
+    font-size: 14px;
+    padding: top;
+    margin: 20px;
+    text-align: center;
+    background-color: #f8f5f5; }
+
+.redesFlotantes img {
+  width: 50px;
+  text-align: center; }
+
+.redesFlotantes img {
+  width: 50px;
+  text-align: center; }
 
 .flexfotoRecientes {
   background-color: beige;
@@ -224,15 +263,18 @@ ul {
   margin: 20px;
   filter: none; }
 
-.footer-home div {
+.footer-home {
   display: flex;
-  justify-content: start;
-  align-items: center; }
-  .footer-home div img {
+  justify-content: center;
+  background-color: aliceblue;
+  margin: 10px; }
+  .footer-home .footer-home div {
     display: flex;
-    justify-content: start;
-    margin-top: 10px;
-    padding: 10px; }
-  .footer-home div p {
+    justify-content: center;
+    padding-top: 10px;
+    background-color: aliceblue; }
+  .footer-home p {
     display: flex;
-    justify-content: start; }
+    justify-content: center;
+    background-color: aliceblue;
+    padding-top: 10px; }

@@ -22,6 +22,10 @@ h2 {
   padding: 20px;
   margin-top: 20px;
 }
+ul {
+  color: black;
+  font-size: 30px;
+}
 
 /* CAMBIA LA MEDIDA DEL REM. 1 REM = 10PX */
 
@@ -60,33 +64,6 @@ body {
   border: 5px black;
 }
 
-.galeria {
-  background-color: beige;
-}
-
-ul {
-  list-style: circle;
-  text-align: left;
-  li {
-    display: inline-flex;
-    width: 25%;
-    position: relative;
-    font-size: 14px;
-    padding: top;
-    margin: 20px;
-    text-align: center;
-    background-color: rgb(248, 245, 245);
-  }
-}
-
-.redesFlotantes img {
-  width: 50px;
-  text-align: center;
-}
-.redesFlotantes img {
-  width: 50px;
-  text-align: center;
-}
 .flexImagenTrin {
   background-color: grey;
   text-align: center;
@@ -114,6 +91,54 @@ ul {
   width: 300px;
   margin: 20px;
   filter: none;
+}
+
+.footer-home {
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  margin: 10px;
+
+  .footer-home div {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: aliceblue;
+  }
+  p {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    padding-top: 10px;
+  }
+}
+
+.galeria {
+  background-color: beige;
+}
+
+ul {
+  list-style: circle;
+  text-align: left;
+  li {
+    display: inline-flex;
+    width: 25%;
+    position: relative;
+    font-size: 14px;
+    padding: top;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(248, 245, 245);
+  }
+}
+
+.redesFlotantes img {
+  width: 50px;
+  text-align: center;
+}
+.redesFlotantes img {
+  width: 50px;
+  text-align: center;
 }
 
 .flexfotoRecientes {
@@ -187,18 +212,22 @@ ul {
   filter: none;
 }
 
-.footer-home div {
+.footer-home {
   display: flex;
-  justify-content: start;
-  align-items: center;
-  img {
+  justify-content: center;
+  background-color: aliceblue;
+  margin: 10px;
+
+  .footer-home div {
     display: flex;
-    justify-content: start;
-    margin-top: 10px;
-    padding: 10px;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: aliceblue;
   }
   p {
     display: flex;
-    justify-content: start;
+    justify-content: center;
+    background-color: aliceblue;
+    padding-top: 10px;
   }
 }

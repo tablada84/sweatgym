@@ -3,3 +3,45 @@ $colorsecundario: green;
 $colorTerciario: red;
 
 $tamañoTexto: green;
+
+/* CONDICIONALES */
+
+$primavera: verano;
+
+body {
+  @if $primavera == verano {
+    background-color: lightblue;
+  } @else if $primavera == invierno {
+    background-color: grey;
+  }
+}
+
+/* DECLARAR EL MAPA */
+
+$redes: (
+  facebook: blue,
+  instagram: lightblue,
+);
+
+/* CREAR EL BUCLE */
+@each $red, $color in $redes {
+  .btn--#{redes} {
+    background-color: $color;
+  }
+}
+
+/* MAP GET */
+
+/* DECLAR EL MAPA */
+
+$estilos: (
+  color: blue,
+  alineacion: star,
+  padding: 10px,
+);
+
+.cajaMap {
+  background-color: map-get($estilos, color);
+  text-align: map-get($estilos, alineacion);
+  padding: map-get($estilos, padding);
+}
