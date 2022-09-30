@@ -142,7 +142,9 @@ body {
   height: 150px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin-bottom: 30px;
+  padding-top: 30px; }
 
 .flexImagen img {
   width: 150px;
@@ -180,15 +182,15 @@ body {
 
 ul {
   list-style: circle;
-  text-align: left; }
+  text-align: start; }
   ul li {
     display: inline-flex;
-    width: 25%;
+    width: 40%;
     position: relative;
-    font-size: 14px;
+    font-size: 16px;
     padding: top;
     margin: 20px;
-    text-align: center;
+    text-align: start;
     background-color: #f8f5f5; }
 
 .redesFlotantes img {
@@ -205,12 +207,38 @@ ul {
   font-size: 15px;
   flex-wrap: wrap; }
 
+.flexfoto {
+  background-color: none;
+  height: 500px;
+  display: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 15px;
+  margin-inline: 15px;
+  margin-bottom: 80px; }
+
 .flexfoto img {
   width: 150px;
   height: 150px;
   font-size: 50px;
   border: solid black 2px;
   justify-content: center; }
+
+.footer-home {
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  margin: 10px; }
+  .footer-home .footer-home div {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: aliceblue; }
+  .footer-home p {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    padding-top: 10px; }
 
 /* sass galeria variables, important */
 .house-flex {

@@ -30,6 +30,14 @@ $redes: (
   }
 }
 
+/* EACH */
+
+@each $gym in imagen 6, imagen 7, imagen 8 {
+  .#{gym} {
+    background-image: url("../multimedia/#{gym}.jpg");
+  }
+}
+
 /* MAP GET */
 
 /* DECLAR EL MAPA */
@@ -44,4 +52,14 @@ $estilos: (
   background-color: map-get($estilos, color);
   text-align: map-get($estilos, alineacion);
   padding: map-get($estilos, padding);
+}
+/* MIXINS */
+
+@mixin sizes($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+.imagen {
+  @include sizes(300px, 300px);
 }

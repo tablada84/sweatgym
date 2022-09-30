@@ -37,7 +37,9 @@ html {
 body {
   background-color: rgb(53, 53, 187);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-position: center;
+  background-position: right center;
+  background-image: url(../multimedia/picture\ 4.jpg);
+  background-repeat: no-repeat;
   margin: 15px;
   padding: 15px;
   border: 10px rgb(21, 21, 163);
@@ -76,6 +78,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-bottom: 30px;
+  padding-top: 30px;
 }
 .flexImagen img {
   width: 150px;
@@ -83,14 +87,6 @@ body {
   font-size: 50px;
   border: solid black 3px;
   justify-content: center;
-  filter: grayscale(100%);
-  transition: all 2s;
-}
-.flexImagen img:hover {
-  height: 200px;
-  width: 300px;
-  margin: 20px;
-  filter: none;
 }
 
 .footer-home {
@@ -113,21 +109,17 @@ body {
   }
 }
 
-.galeria {
-  background-color: beige;
-}
-
 ul {
   list-style: circle;
-  text-align: left;
+  text-align: start;
   li {
     display: inline-flex;
-    width: 25%;
+    width: 40%;
     position: relative;
-    font-size: 14px;
+    font-size: 16px;
     padding: top;
     margin: 20px;
-    text-align: center;
+    text-align: start;
     background-color: rgb(248, 245, 245);
   }
 }
@@ -147,12 +139,41 @@ ul {
   font-size: 15px;
   flex-wrap: wrap;
 }
+.flexfoto {
+  background-color: none;
+  height: 500px;
+  display: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 15px;
+  margin-inline: 15px;
+  margin-bottom: 80px;
+}
 .flexfoto img {
   width: 150px;
   height: 150px;
   font-size: 50px;
   border: solid black 2px;
   justify-content: center;
+}
+.footer-home {
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  margin: 10px;
+
+  .footer-home div {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: aliceblue;
+  }
+  p {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    padding-top: 10px;
+  }
 }
 
 /* sass galeria variables, important */
@@ -201,15 +222,6 @@ ul {
   font-size: 50px;
   border: solid black 3px;
   justify-content: center;
-  filter: grayscale(100%);
-  transition: all 2s;
-}
-
-.flexpicture img:hover {
-  height: 200px;
-  width: 300px;
-  margin: 20px;
-  filter: none;
 }
 
 .footer-home {
