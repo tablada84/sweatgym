@@ -35,6 +35,7 @@ $redes: (
 @each $gym in imagen 6, imagen 7, imagen 8 {
   .#{gym} {
     background-image: url("../multimedia/#{gym}.jpg");
+    background: no-repeat;
   }
 }
 
@@ -53,13 +54,35 @@ $estilos: (
   text-align: map-get($estilos, alineacion);
   padding: map-get($estilos, padding);
 }
+
+.cajaMap2 {
+  text-align: map-get($estilos, alineacion);
+  font-size: map-get($redes, instagram);
+}
 /* MIXINS */
 
-@mixin sizes($width, $height) {
-  width: $width;
-  height: $height;
+@mixin sizes($ancho, $altura) {
+  width: $ancho;
+  height: $altura;
 }
 
-.imagen {
-  @include sizes(300px, 300px);
+.picture {
+  @include sizes(150px, 150px);
+}
+
+/* EXTEND */
+/* Traer los estilos de otras clases y se puedan sumar a los propios */
+
+.boton {
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+  text-align: center;
+  color: black;
+  border: 1px solid black;
+}
+
+.boton--registrarse {
+  @extend .boton;
+  background-color: white;
 }

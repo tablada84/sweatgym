@@ -10,12 +10,47 @@ body {
 .btn--redes {
   background-color: lightblue; }
 
+/* EACH */
+.gym {
+  background-image: url("../multimedia/gym.jpg");
+  background: no-repeat; }
+
+.gym {
+  background-image: url("../multimedia/gym.jpg");
+  background: no-repeat; }
+
+.gym {
+  background-image: url("../multimedia/gym.jpg");
+  background: no-repeat; }
+
 /* MAP GET */
 /* DECLAR EL MAPA */
 .cajaMap {
   background-color: blue;
   text-align: star;
   padding: 10px; }
+
+.cajaMap2 {
+  text-align: star;
+  font-size: lightblue; }
+
+/* MIXINS */
+.picture {
+  width: 150px;
+  height: 150px; }
+
+/* EXTEND */
+/* Traer los estilos de otras clases y se puedan sumar a los propios */
+.boton, .boton--registrarse {
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+  text-align: center;
+  color: black;
+  border: 1px solid black; }
+
+.boton--registrarse {
+  background-color: white; }
 
 .house-flex {
   display: flex;
@@ -108,10 +143,25 @@ html {
 body {
   background-color: #3535bb;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-position: center;
+  background-position: right center;
+  background-repeat: no-repeat;
   margin: 15px;
   padding: 15px;
   border: 10px #1515a3; }
+
+.nav .navbar .navbar-link {
+  text-decoration: none; }
+
+.header-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: end; }
+
+.header-flex nav ul li {
+  list-style: none;
+  display: inline-block;
+  background-color: #1f77c5;
+  border-radius: 10px; }
 
 .menuPrincipal {
   list-style-type: circle;
@@ -132,6 +182,15 @@ body {
   padding: 50px;
   border: 5px black; }
 
+.home-flex {
+  font-size: 100px;
+  margin-top: 20px; }
+
+.main-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
 .flexImagenTrin {
   background-color: grey;
   text-align: center;
@@ -151,34 +210,16 @@ body {
   height: 150px;
   font-size: 50px;
   border: solid black 3px;
-  justify-content: center;
-  filter: grayscale(100%);
-  transition: all 2s; }
+  justify-content: center; }
 
-.flexImagen img:hover {
-  height: 200px;
-  width: 300px;
-  margin: 20px;
-  filter: none; }
-
-.footer-home {
+.footer-home div {
   display: flex;
   justify-content: center;
   background-color: aliceblue;
-  margin: 10px; }
-  .footer-home .footer-home div {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
+  align-items: center; }
+  .footer-home div .footer-home div img {
+    margin: 10px, 7px, 15px, 7px;
     background-color: aliceblue; }
-  .footer-home p {
-    display: flex;
-    justify-content: center;
-    background-color: aliceblue;
-    padding-top: 10px; }
-
-.galeria {
-  background-color: beige; }
 
 ul {
   list-style: circle;
@@ -281,15 +322,7 @@ ul {
   height: 150px;
   font-size: 50px;
   border: solid black 3px;
-  justify-content: center;
-  filter: grayscale(100%);
-  transition: all 2s; }
-
-.flexpicture img:hover {
-  height: 200px;
-  width: 300px;
-  margin: 20px;
-  filter: none; }
+  justify-content: center; }
 
 .footer-home {
   display: flex;

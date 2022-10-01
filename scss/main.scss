@@ -38,11 +38,27 @@ body {
   background-color: rgb(53, 53, 187);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-position: right center;
-  background-image: url(../multimedia/picture\ 4.jpg);
   background-repeat: no-repeat;
   margin: 15px;
   padding: 15px;
   border: 10px rgb(21, 21, 163);
+}
+
+.nav .navbar .navbar-link {
+  text-decoration: none;
+}
+
+.header-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.header-flex nav ul li {
+  list-style: none;
+  display: inline-block;
+  background-color: rgb(31, 119, 197);
+  border-radius: 10px;
 }
 
 .menuPrincipal {
@@ -64,6 +80,16 @@ body {
   margin: 50px;
   padding: 50px;
   border: 5px black;
+}
+
+.home-flex {
+  font-size: 100px;
+  margin-top: 20px;
+}
+.main-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .flexImagenTrin {
@@ -89,23 +115,15 @@ body {
   justify-content: center;
 }
 
-.footer-home {
+.footer-home div {
   display: flex;
   justify-content: center;
   background-color: aliceblue;
-  margin: 10px;
+  align-items: center;
 
-  .footer-home div {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
+  .footer-home div img {
+    margin: 10px, 7px, 15px, 7px;
     background-color: aliceblue;
-  }
-  p {
-    display: flex;
-    justify-content: center;
-    background-color: aliceblue;
-    padding-top: 10px;
   }
 }
 
