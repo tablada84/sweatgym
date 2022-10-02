@@ -129,7 +129,8 @@ h2 {
   color: white;
   font-size: 35px;
   padding: 20px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  font-style: oblique; }
 
 ul {
   color: black;
@@ -149,6 +150,7 @@ body {
   padding: 15px;
   border: 10px #1515a3; }
 
+/* INDEX HTML */
 .nav .navbar .navbar-link {
   text-decoration: none; }
 
@@ -241,7 +243,23 @@ ul {
 .redesFlotantes img {
   width: 50px;
   text-align: center; }
+  .redesFlotantes img .footer-home {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    margin: 40pxpx; }
+    .redesFlotantes img .footer-home .footer-home div {
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+      background-color: aliceblue; }
+    .redesFlotantes img .footer-home p {
+      display: flex;
+      justify-content: center;
+      background-color: aliceblue;
+      padding-top: 10px; }
 
+/* HTML IMAGENES */
 .flexfotoRecientes {
   background-color: beige;
   text-align: center;
@@ -302,6 +320,7 @@ ul {
       text-align: center;
       background-color: #eeecf8; }
 
+/* GALERIA HTML */
 .flexPictureEntrenar {
   background-color: aliceblue;
   text-align: center;
@@ -324,6 +343,40 @@ ul {
   border: solid black 3px;
   justify-content: center; }
 
+.footer-home {
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  margin: 10px; }
+  .footer-home .footer-home div {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: aliceblue; }
+  .footer-home p {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    padding-top: 10px; }
+
+/* INFORMACION HTML */
+.footer-home {
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  margin: 10px; }
+  .footer-home .footer-home div {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: aliceblue; }
+  .footer-home p {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    padding-top: 10px; }
+
+/*CONTACTOS HTML  */
 .footer-home {
   display: flex;
   justify-content: center;

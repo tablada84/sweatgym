@@ -21,6 +21,7 @@ h2 {
   font-size: 35px;
   padding: 20px;
   margin-top: 20px;
+  font-style: oblique;
 }
 ul {
   color: black;
@@ -43,6 +44,8 @@ body {
   padding: 15px;
   border: 10px rgb(21, 21, 163);
 }
+
+/* INDEX HTML */
 
 .nav .navbar .navbar-link {
   text-decoration: none;
@@ -120,7 +123,6 @@ body {
   justify-content: center;
   background-color: aliceblue;
   align-items: center;
-
   .footer-home div img {
     margin: 10px, 7px, 15px, 7px;
     background-color: aliceblue;
@@ -149,7 +151,29 @@ ul {
 .redesFlotantes img {
   width: 50px;
   text-align: center;
+
+  .footer-home {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    margin: 40pxpx;
+
+    .footer-home div {
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+      background-color: aliceblue;
+    }
+    p {
+      display: flex;
+      justify-content: center;
+      background-color: aliceblue;
+      padding-top: 10px;
+    }
+  }
 }
+
+/* HTML IMAGENES */
 
 .flexfotoRecientes {
   background-color: beige;
@@ -179,7 +203,6 @@ ul {
   justify-content: center;
   background-color: aliceblue;
   margin: 10px;
-
   .footer-home div {
     display: flex;
     justify-content: center;
@@ -219,6 +242,8 @@ ul {
   }
 }
 
+/* GALERIA HTML */
+
 .flexPictureEntrenar {
   background-color: aliceblue;
   text-align: center;
@@ -247,7 +272,48 @@ ul {
   justify-content: center;
   background-color: aliceblue;
   margin: 10px;
+  .footer-home div {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: aliceblue;
+  }
+  p {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    padding-top: 10px;
+  }
+}
 
+/* INFORMACION HTML */
+
+.footer-home {
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  margin: 10px;
+  .footer-home div {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: aliceblue;
+  }
+  p {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    padding-top: 10px;
+  }
+}
+
+/*CONTACTOS HTML  */
+
+.footer-home {
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  margin: 10px;
   .footer-home div {
     display: flex;
     justify-content: center;
