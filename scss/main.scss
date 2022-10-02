@@ -51,19 +51,29 @@ body {
   text-decoration: none;
 }
 
+.btn-outline-dark {
+  background-color: rgb(86, 86, 197);
+  margin: 10px;
+}
+
 .header-flex {
   display: flex;
   flex-direction: row;
   justify-content: end;
 }
 
-.header-flex nav ul li {
+.header-flex nav ul li a {
   list-style: none;
   display: inline-block;
-  background-color: rgb(31, 119, 197);
-  border-radius: 10px;
+  background-color: rgb(75, 111, 211);
+  border-radius: 1rem;
+  margin: 0 10px 0 10px;
+  padding: 0, 5rem;
 }
-
+.header-flex nav ul li a {
+  text-decoration: none;
+  color: rgb(11, 66, 114);
+}
 .menuPrincipal {
   list-style-type: circle;
   text-align: justify center;
