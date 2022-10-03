@@ -151,34 +151,37 @@ body {
   border: 10px #1515a3; }
 
 /* INDEX HTML */
-.nav .navbar .navbar-link {
-  text-decoration: none; }
+.bg-white {
+  background-color: white; }
 
-.btn-outline-dark {
-  background-color: #5656c5;
-  margin: 10px; }
+.nav-expand-lg .navbar-nav .nav-link {
+  font-size: 18px; }
+  .nav-expand-lg .navbar-nav .nav-link .header nav ul li a {
+    list-style: none;
+    display: flex;
+    background-color: #4b6fd3;
+    border-radius: 0, 5rem; }
 
-.header-flex {
-  display: flex;
-  flex-direction: row;
-  justify-content: end; }
-
-.header-flex nav ul li a {
-  list-style: none;
-  display: inline-block;
-  background-color: #4b6fd3;
-  border-radius: 1rem;
-  margin: 0 10px 0 10px;
-  padding: 0, 5rem; }
-
-.header-flex nav ul li a {
+.header nav ul li a {
   text-decoration: none;
   color: #0b4272; }
+
+.btn-outline-dark {
+  background-color: #4a4adb;
+  margin: 10px; }
 
 .menuPrincipal {
   list-style-type: circle;
   text-align: justify center;
   font-size: 30px; }
+
+.principal__tituloTres {
+  font-size: 15px;
+  background-color: #393988;
+  padding: 15px;
+  border: solid 5px;
+  margin: 15px;
+  background-position: center; }
 
 .principal__tituloTres {
   font-size: 15px;
@@ -218,7 +221,7 @@ body {
   padding-top: 30px; }
 
 .flexImagen img {
-  width: 150px;
+  width: 400px;
   height: 150px;
   font-size: 50px;
   border: solid black 3px;
@@ -229,9 +232,10 @@ body {
   justify-content: center;
   background-color: aliceblue;
   align-items: center; }
-  .footer-home div .footer-home div img {
-    margin: 10px, 7px, 15px, 7px;
-    background-color: aliceblue; }
+
+.footer-home div img {
+  margin: 10px, 7px, 15px, 7px;
+  background-color: aliceblue; }
 
 ul {
   list-style: circle;
@@ -258,16 +262,16 @@ ul {
     justify-content: center;
     background-color: aliceblue;
     margin: 40pxpx; }
-    .redesFlotantes img .footer-home .footer-home div {
-      display: flex;
-      justify-content: center;
-      padding-top: 10px;
-      background-color: aliceblue; }
-    .redesFlotantes img .footer-home p {
-      display: flex;
-      justify-content: center;
-      background-color: aliceblue;
-      padding-top: 10px; }
+  .redesFlotantes img .footer-home div {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: aliceblue; }
+  .redesFlotantes img p {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    padding-top: 10px; }
 
 /* HTML IMAGENES */
 .flexfotoRecientes {
