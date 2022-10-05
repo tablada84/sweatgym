@@ -155,20 +155,23 @@ body {
   background-color: white; }
 
 .nav-expand-lg .navbar-nav .nav-link {
-  font-size: 18px; }
-  .nav-expand-lg .navbar-nav .nav-link .header nav ul li a {
-    list-style: none;
-    display: flex;
-    background-color: #4b6fd3;
-    border-radius: 0, 5rem; }
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between; }
 
-.header nav ul li a {
+.header nav {
   text-decoration: none;
   color: #0b4272; }
+  .header nav .a {
+    display: flex;
+    justify-content: end; }
 
 .btn-outline-dark {
   background-color: #4a4adb;
-  margin: 10px; }
+  margin: 10px;
+  border-radius: black; }
 
 .menuPrincipal {
   list-style-type: circle;
@@ -200,11 +203,10 @@ body {
 .home-flex {
   font-size: 100px;
   margin-top: 20px; }
-
-.main-flex {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
+  .home-flex .main-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
 
 .flexImagenTrin {
   background-color: grey;
@@ -216,26 +218,15 @@ body {
   height: 150px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-bottom: 30px;
   padding-top: 30px; }
-
-.flexImagen img {
-  width: 400px;
-  height: 150px;
-  font-size: 50px;
-  border: solid black 3px;
-  justify-content: center; }
-
-.footer-home div {
-  display: flex;
-  justify-content: center;
-  background-color: aliceblue;
-  align-items: center; }
-
-.footer-home div img {
-  margin: 10px, 7px, 15px, 7px;
-  background-color: aliceblue; }
+  .flexImagen img {
+    width: 400px;
+    height: 150px;
+    font-size: 50px;
+    border: solid black 3px;
+    justify-content: center; }
 
 ul {
   list-style: circle;
@@ -256,7 +247,8 @@ ul {
 
 .redesFlotantes img {
   width: 50px;
-  text-align: center; }
+  text-align: center;
+  /* IMAGEN HTML */ }
   .redesFlotantes img .footer-home {
     display: flex;
     justify-content: center;
@@ -267,113 +259,167 @@ ul {
     justify-content: center;
     padding-top: 10px;
     background-color: aliceblue; }
-  .redesFlotantes img p {
+    .redesFlotantes img .footer-home div p {
+      display: flex;
+      justify-content: center;
+      background-color: aliceblue;
+      padding-top: 10px; }
+
+.bg-white {
+  background-color: white;
+  /* sass galeria variables, important */
+  /* GALERIA HTML */
+  /* INFORMACION HTML */ }
+  .bg-white .nav-expand-lg .navbar-nav .nav-link {
+    position: relative;
     display: flex;
-    justify-content: center;
-    background-color: aliceblue;
-    padding-top: 10px; }
-
-/* HTML IMAGENES */
-.flexfotoRecientes {
-  background-color: beige;
-  text-align: center;
-  font-size: 15px;
-  flex-wrap: wrap; }
-
-.flexfoto {
-  background-color: none;
-  height: 500px;
-  display: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-top: 15px;
-  margin-inline: 15px;
-  margin-bottom: 80px; }
-
-.flexfoto img {
-  width: 150px;
-  height: 150px;
-  font-size: 50px;
-  border: solid black 2px;
-  justify-content: center; }
-
-.footer-home {
-  display: flex;
-  justify-content: center;
-  background-color: aliceblue;
-  margin: 10px; }
-  .footer-home .footer-home div {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    background-color: aliceblue; }
-  .footer-home p {
-    display: flex;
-    justify-content: center;
-    background-color: aliceblue;
-    padding-top: 10px; }
-
-/* sass galeria variables, important */
-.house-flex {
-  display: flex;
-  flex-direction: column; }
-  .house-flex .actividades-flex {
-    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center; }
-  .house-flex ul {
-    list-style: circle;
-    text-align: relative; }
-    .house-flex ul li {
-      display: inline-flex;
-      width: 30%;
-      position: relative;
-      font-size: 16px;
-      padding: top;
-      margin: 20px;
-      text-align: center;
-      background-color: #eeecf8; }
-
-/* GALERIA HTML */
-.flexPictureEntrenar {
-  background-color: aliceblue;
-  text-align: center;
-  font-size: 50px; }
-
-.flexpicture {
-  background-color: none;
-  height: 150px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-top: 15px;
-  margin-inline: 15px;
-  margin-bottom: 80px; }
-
-.flexpicture img {
-  width: 150px;
-  height: 150px;
-  font-size: 50px;
-  border: solid black 3px;
-  justify-content: center; }
-
-.footer-home {
-  display: flex;
-  justify-content: center;
-  background-color: aliceblue;
-  margin: 10px; }
-  .footer-home .footer-home div {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    background-color: aliceblue; }
-  .footer-home p {
+    justify-content: end; }
+  .bg-white .btn-outline-dark {
+    background-color: #4a4adb;
+    margin: 10px;
+    border-radius: black; }
+  .bg-white .flexfotoRecientes {
+    background-color: none;
+    text-align: center;
+    font-size: 15px; }
+    .bg-white .flexfotoRecientes .flexfoto {
+      background-color: none;
+      height: 150px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      .bg-white .flexfotoRecientes .flexfoto img {
+        width: 150px;
+        height: 150px;
+        font-size: 50px;
+        border: solid black 2px;
+        justify-content: center; }
+  .bg-white .footer-home {
     display: flex;
     justify-content: center;
     background-color: aliceblue;
-    padding-top: 10px; }
+    margin: 10px; }
+    .bg-white .footer-home .footer-home div {
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+      background-color: aliceblue; }
+    .bg-white .footer-home p {
+      display: flex;
+      justify-content: center;
+      background-color: aliceblue;
+      padding-top: 10px; }
+  .bg-white .house-flex {
+    display: flex;
+    flex-direction: column; }
+    .bg-white .house-flex .actividades-flex {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    .bg-white .house-flex ul {
+      list-style: circle;
+      text-align: relative; }
+      .bg-white .house-flex ul li {
+        display: inline-flex;
+        width: 30%;
+        position: relative;
+        font-size: 16px;
+        padding: top;
+        margin: 20px;
+        text-align: center;
+        background-color: #eeecf8; }
+  .bg-white .footer-home {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    margin: 10px; }
+    .bg-white .footer-home .footer-home div {
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+      background-color: aliceblue; }
+    .bg-white .footer-home p {
+      display: flex;
+      justify-content: center;
+      background-color: aliceblue;
+      padding-top: 10px; }
+  .bg-white .bg-white {
+    background-color: white; }
+  .bg-white .nav-expand-lg .navbar-nav .nav-link {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; }
+  .bg-white .house-flex {
+    display: flex;
+    flex-direction: column; }
+    .bg-white .house-flex .actividades-flex {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    .bg-white .house-flex ul {
+      list-style: circle;
+      text-align: relative; }
+      .bg-white .house-flex ul li {
+        display: inline-flex;
+        width: 30%;
+        position: relative;
+        font-size: 16px;
+        padding: top;
+        margin: 20px;
+        text-align: center;
+        background-color: #eeecf8; }
+  .bg-white .flexPictureEntrenar {
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 50px; }
+    .bg-white .flexPictureEntrenar .flexpicture {
+      background-color: none;
+      height: 150px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding-top: 15px;
+      margin-inline: 15px;
+      margin-bottom: 80px; }
+      .bg-white .flexPictureEntrenar .flexpicture img {
+        width: 150px;
+        height: 150px;
+        font-size: 50px;
+        border: solid black 3px;
+        justify-content: center; }
+  .bg-white .footer-home {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    margin: 10px; }
+    .bg-white .footer-home .footer-home div {
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+      background-color: aliceblue; }
+    .bg-white .footer-home p {
+      display: flex;
+      justify-content: center;
+      background-color: aliceblue;
+      padding-top: 10px; }
+  .bg-white .bg-white {
+    background-color: white; }
+  .bg-white .nav-expand-lg .navbar-nav .nav-link {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; }
 
-/* INFORMACION HTML */
+.btn-outline-dark {
+  background-color: #4a4adb;
+  margin: 10px;
+  border-radius: black; }
+
 .footer-home {
   display: flex;
   justify-content: center;
@@ -391,6 +437,16 @@ ul {
     padding-top: 10px; }
 
 /*CONTACTOS HTML  */
+.bg-white {
+  background-color: white; }
+
+.nav-expand-lg .navbar-nav .nav-link {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between; }
+
 .footer-home {
   display: flex;
   justify-content: center;

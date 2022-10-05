@@ -247,7 +247,7 @@ justify-content: wrap start;
   filter: none;
 }
 .flexfotoRecientes {
-  background-color: beige;
+  background-color: none;
   text-align: center;
   font-size: 15px;
   flex-wrap: wrap;
