@@ -377,21 +377,21 @@ ul {
     background-color: aliceblue;
     text-align: center;
     font-size: 50px; }
-    .bg-white .flexPictureEntrenar .flexpicture {
-      background-color: none;
-      height: 150px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      padding-top: 15px;
-      margin-inline: 15px;
-      margin-bottom: 80px; }
-      .bg-white .flexPictureEntrenar .flexpicture img {
-        width: 150px;
-        height: 150px;
-        font-size: 50px;
-        border: solid black 3px;
-        justify-content: center; }
+  .bg-white .flexpicture {
+    background-color: none;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15px;
+    margin-inline: 15px;
+    margin-bottom: 80px; }
+  .bg-white .flexpicture img {
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+    border: solid black 3px;
+    justify-content: center; }
   .bg-white .footer-home {
     display: flex;
     justify-content: center;
