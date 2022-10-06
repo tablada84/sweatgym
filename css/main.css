@@ -222,12 +222,13 @@ body {
   justify-content: space-evenly;
   margin-bottom: 30px;
   padding-top: 30px; }
-  .flexImagen img {
-    width: 400px;
-    height: 150px;
-    font-size: 50px;
-    border: solid black 3px;
-    justify-content: center; }
+
+.fleximagen img {
+  width: 400px;
+  height: 150px;
+  font-size: 50px;
+  border: solid black 3px;
+  justify-content: center; }
 
 ul {
   list-style: circle;
@@ -281,17 +282,17 @@ ul {
     background-color: #4a4adb;
     margin: 10px;
     border-radius: black; }
-  .bg-white .flexfotoRecientes {
+  .bg-white .flexfotosRecientes {
     background-color: none;
     text-align: center;
     font-size: 15px; }
-  .bg-white .flexfoto {
+  .bg-white .flexfotos {
     background-color: none;
     height: 150px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around; }
-  .bg-white .flexfoto img {
+    justify-content: space-evenly; }
+  .bg-white .flexfotos img {
     width: 150px;
     height: 150px;
     font-size: 50px;
@@ -420,6 +421,15 @@ ul {
   background-color: #4a4adb;
   margin: 10px;
   border-radius: black; }
+
+.housi-flex {
+  font-size: 100px;
+  margin: 20px; }
+
+.main-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 .footer-home {
   display: flex;
