@@ -132,6 +132,13 @@ h2 {
   margin-top: 20px;
   font-style: oblique; }
 
+h3 {
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-size: 30px;
+  margin-top: 20px; }
+
 ul {
   color: black;
   font-size: 30px; }
@@ -154,6 +161,11 @@ body {
 .bg-white {
   background-color: white; }
 
+.btn-dark {
+  background-color: #4a4adb;
+  border-radius: black;
+  transition: all; }
+
 .nav-expand-lg .navbar-nav .nav-link {
   position: relative;
   display: flex;
@@ -161,21 +173,25 @@ body {
   align-items: center;
   justify-content: space-between; }
 
-.header nav {
+.nav {
   text-decoration: none;
   color: #0b4272; }
-  .header nav .a {
+  .nav .a {
     display: flex;
     justify-content: end; }
 
-.btn-outline-dark {
-  background-color: #4a4adb;
-  margin: 10px;
-  border-radius: black; }
+.home-flex {
+  display: flex;
+  flex-direction: column; }
+
+.main-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .menuPrincipal {
   list-style-type: circle;
-  text-align: justify center;
+  text-align: center;
   font-size: 30px; }
 
 .principal__tituloTres {
@@ -196,18 +212,9 @@ body {
 
 .principal__tituloTres--gris {
   background-color: #dfc7c7;
-  margin: 50px;
-  padding: 50px;
+  margin: 20px;
+  padding: 20px;
   border: 5px black; }
-
-.home-flex {
-  font-size: 100px;
-  margin-top: 20px; }
-
-.main-flex {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
 
 .flexImagenTrin {
   background-color: grey;
@@ -219,7 +226,7 @@ body {
   height: 150px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-bottom: 30px;
   padding-top: 30px; }
 
@@ -239,7 +246,7 @@ ul {
     position: relative;
     font-size: 16px;
     padding: top;
-    margin: 20px;
+    margin: 40px;
     text-align: start;
     background-color: #f8f5f5; }
 
@@ -282,17 +289,12 @@ ul {
     background-color: #4a4adb;
     margin: 10px;
     border-radius: black; }
-  .bg-white .flexfotosRecientes {
+  .bg-white .flexfotoRecientes {
     background-color: none;
     text-align: center;
-    font-size: 15px; }
-  .bg-white .flexfotos {
-    background-color: none;
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly; }
-  .bg-white .flexfotos img {
+    font-size: 15px;
+    flex-wrap: wrap; }
+  .bg-white .flexfoto img {
     width: 150px;
     height: 150px;
     font-size: 50px;
@@ -378,7 +380,7 @@ ul {
     background-color: aliceblue;
     text-align: center;
     font-size: 50px; }
-  .bg-white .flexpicture {
+  .bg-white .flex-picture {
     background-color: none;
     height: 150px;
     display: flex;
@@ -387,7 +389,7 @@ ul {
     padding-top: 15px;
     margin-inline: 15px;
     margin-bottom: 80px; }
-  .bg-white .flexpicture img {
+  .bg-white .flex-picture img {
     width: 150px;
     height: 150px;
     font-size: 50px;
@@ -422,15 +424,9 @@ ul {
   margin: 10px;
   border-radius: black; }
 
-.housi-flex {
-  font-size: 100px;
-  margin: 20px; }
-
-.main-flex {
+.Alinear_flex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: end; }
+  justify-content: center; }
 
 .footer-home {
   display: flex;
