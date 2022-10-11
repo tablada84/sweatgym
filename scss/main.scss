@@ -25,11 +25,11 @@ h2 {
 }
 
 h3 {
-  text-align: center;
+  text-align: start;
   color: white;
   font-style: italic;
-  font-size: 30px;
-  margin-top: 20px;
+  font-size: 15px;
+  margin-top: 15px;
 }
 ul {
   color: black;
@@ -119,29 +119,6 @@ body {
   border: 5px black;
 }
 
-.flexImagenTrin {
-  background-color: grey;
-  text-align: center;
-  font-size: 50px;
-}
-
-.flexImagen {
-  background-color: none;
-  height: 150px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 30px;
-  padding-top: 30px;
-}
-.fleximagen img {
-  width: 400px;
-  height: 150px;
-  font-size: 50px;
-  border: solid black 3px;
-  justify-content: center;
-}
-
 ul {
   list-style: circle;
   text-align: start;
@@ -157,6 +134,20 @@ ul {
   }
 }
 
+.flexImagenTrin {
+  background-color: grey;
+  text-align: center;
+  font-size: 50px;
+}
+
+.fleximagen img {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  font-size: 50px;
+  justify-content: center;
+}
+
 .redesFlotantes img {
   width: 50px;
   text-align: center;
@@ -169,7 +160,7 @@ ul {
     display: flex;
     justify-content: center;
     background-color: aliceblue;
-    margin: 40pxpx;
+    margin: 40px;
   }
   .footer-home div {
     display: flex;
@@ -201,21 +192,15 @@ ul {
     margin: 10px;
     border-radius: black;
   }
-  .flexfotoRecientes {
-    background-color: none;
-    text-align: center;
-    font-size: 15px;
-    flex-wrap: wrap;
-  }
 
-  .flexfoto img {
+  .pic {
     width: 150px;
-    height: 150px;
-    font-size: 50px;
-    border: solid black 2px;
+    height: auto;
     justify-content: center;
+    margin: 2px;
+    padding: 2px;
+    border: black;
   }
-
   .footer-home {
     display: flex;
     justify-content: center;
@@ -290,7 +275,12 @@ ul {
     align-items: center;
     justify-content: space-between;
   }
-
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
   .house-flex {
     display: flex;
     flex-direction: column;
@@ -327,8 +317,6 @@ ul {
     flex-direction: row;
     justify-content: space-around;
     padding-top: 15px;
-    margin-inline: 15px;
-    margin-bottom: 80px;
   }
   .flex-picture img {
     width: 150px;
@@ -361,6 +349,12 @@ ul {
   .bg-white {
     background-color: white;
   }
+  .btn-dark {
+    background-color: rgb(74, 74, 219);
+    border-radius: black;
+    transition: all;
+  }
+
   .nav-expand-lg .navbar-nav .nav-link {
     position: relative;
     display: flex;
