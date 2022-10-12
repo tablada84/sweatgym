@@ -74,22 +74,10 @@ body {
 
 .nav {
   text-decoration: none;
-  color: rgb(11, 66, 114);
-  .a {
-    display: flex;
-    justify-content: end;
-  }
-}
-
-.home-flex {
   display: flex;
   flex-direction: column;
 }
-.main-flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .menuPrincipal {
   list-style-type: circle;
   text-align: center;
@@ -119,6 +107,16 @@ body {
   border: 5px black;
 }
 
+.home-flex {
+  display: flex;
+  flex-direction: column;
+}
+.main-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 ul {
   list-style: circle;
   text-align: start;
@@ -132,20 +130,6 @@ ul {
     text-align: start;
     background-color: rgb(248, 245, 245);
   }
-}
-
-.flexImagenTrin {
-  background-color: grey;
-  text-align: center;
-  font-size: 50px;
-}
-
-.fleximagen img {
-  display: flex;
-  width: 150px;
-  height: 150px;
-  font-size: 50px;
-  justify-content: center;
 }
 
 .redesFlotantes img {
@@ -194,13 +178,14 @@ ul {
   }
 
   .pic {
-    width: 150px;
+    width: 200px;
     height: auto;
+    display: flex;
     justify-content: center;
-    margin: 2px;
-    padding: 2px;
-    border: black;
+    margin: 5px;
+    padding: 5px;
   }
+
   .footer-home {
     display: flex;
     justify-content: center;
@@ -275,6 +260,13 @@ ul {
     align-items: center;
     justify-content: space-between;
   }
+
+  .btn-dark {
+    background-color: rgb(74, 74, 219);
+    border-radius: black;
+    transition: all;
+  }
+
   .card {
     position: relative;
     display: flex;
@@ -303,27 +295,6 @@ ul {
         background-color: rgb(238, 236, 248);
       }
     }
-  }
-
-  .flexPictureEntrenar {
-    background-color: aliceblue;
-    text-align: center;
-    font-size: 50px;
-  }
-  .flex-picture {
-    background-color: none;
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 15px;
-  }
-  .flex-picture img {
-    width: 150px;
-    height: 150px;
-    font-size: 50px;
-    border: solid black 3px;
-    justify-content: center;
   }
 
   .footer-home {
@@ -414,11 +385,11 @@ ul {
     justify-content: center;
     padding-top: 10px;
     background-color: aliceblue;
-  }
-  p {
-    display: flex;
-    justify-content: center;
-    background-color: aliceblue;
-    padding-top: 10px;
+    p {
+      display: flex;
+      justify-content: center;
+      background-color: aliceblue;
+      padding-top: 10px;
+    }
   }
 }
