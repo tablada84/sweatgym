@@ -175,19 +175,8 @@ body {
 
 .nav {
   text-decoration: none;
-  color: #0b4272; }
-  .nav .a {
-    display: flex;
-    justify-content: end; }
-
-.home-flex {
   display: flex;
   flex-direction: column; }
-
-.main-flex {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
 
 .menuPrincipal {
   list-style-type: circle;
@@ -216,6 +205,15 @@ body {
   padding: 20px;
   border: 5px black; }
 
+.home-flex {
+  display: flex;
+  flex-direction: column; }
+
+.main-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 ul {
   list-style: circle;
   text-align: start; }
@@ -229,18 +227,7 @@ ul {
     text-align: start;
     background-color: #f8f5f5; }
 
-.flexImagenTrin {
-  background-color: none;
-  text-align: center;
-  font-size: 50px;
-  justify-content: center; }
-  .flexImagenTrin .img {
-    display: flex;
-    width: 150px;
-    height: 150px;
-    font-size: 50px; }
-
-s .redesFlotantes img {
+.redesFlotantes img {
   width: 50px;
   text-align: center; }
 
@@ -279,16 +266,13 @@ s .redesFlotantes img {
     background-color: #4a4adb;
     margin: 10px;
     border-radius: black; }
-  .bg-white .flex-container {
-    display: flex;
-    inline-size: center; }
   .bg-white .pic {
-    width: 150px;
+    width: 200px;
     height: auto;
+    display: flex;
     justify-content: center;
-    margin: 2px;
-    padding: 2px;
-    border: black; }
+    margin: 5px;
+    padding: 5px; }
   .bg-white .footer-home {
     display: flex;
     justify-content: center;
@@ -346,6 +330,10 @@ s .redesFlotantes img {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between; }
+  .bg-white .btn-dark {
+    background-color: #4a4adb;
+    border-radius: black;
+    transition: all; }
   .bg-white .card {
     position: relative;
     display: flex;
@@ -370,23 +358,6 @@ s .redesFlotantes img {
         margin: 20px;
         text-align: center;
         background-color: #eeecf8; }
-  .bg-white .flexPictureEntrenar {
-    background-color: aliceblue;
-    text-align: center;
-    font-size: 50px; }
-  .bg-white .flex-picture {
-    background-color: none;
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 15px; }
-  .bg-white .flex-picture img {
-    width: 150px;
-    height: 150px;
-    font-size: 50px;
-    border: solid black 3px;
-    justify-content: center; }
   .bg-white .footer-home {
     display: flex;
     justify-content: center;
@@ -461,8 +432,8 @@ s .redesFlotantes img {
     justify-content: center;
     padding-top: 10px;
     background-color: aliceblue; }
-  .footer-home p {
-    display: flex;
-    justify-content: center;
-    background-color: aliceblue;
-    padding-top: 10px; }
+    .footer-home .footer-home div p {
+      display: flex;
+      justify-content: center;
+      background-color: aliceblue;
+      padding-top: 10px; }
