@@ -208,11 +208,17 @@ body {
 .home-flex {
   display: flex;
   flex-direction: column; }
-
-.main-flex {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+  .home-flex .main-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    margin: 10px; }
+  .home-flex .picture {
+    width: 150px;
+    height: 150px; }
+  .home-flex .mpic {
+    width: 90vw; }
 
 ul {
   list-style: circle;
@@ -227,6 +233,26 @@ ul {
     text-align: start;
     background-color: #f8f5f5; }
 
+.flexImagenTrin {
+  background-color: none;
+  text-align: center;
+  font-size: 50px; }
+
+.flex-imagen {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding-top: 30px; }
+
+.fleximagen img {
+  width: 400px;
+  height: 150px;
+  font-size: 50px;
+  border: solid black 3px;
+  justify-content: center; }
+
 .redesFlotantes img {
   width: 50px;
   text-align: center; }
@@ -240,16 +266,16 @@ ul {
     justify-content: center;
     background-color: aliceblue;
     margin: 40px; }
-  .redesFlotantes img .footer-home div {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    background-color: aliceblue; }
-    .redesFlotantes img .footer-home div p {
+    .redesFlotantes img .footer-home .footer-home div {
       display: flex;
       justify-content: center;
-      background-color: aliceblue;
-      padding-top: 10px; }
+      padding-top: 10px;
+      background-color: aliceblue; }
+      .redesFlotantes img .footer-home .footer-home div p {
+        display: flex;
+        justify-content: center;
+        background-color: aliceblue;
+        padding-top: 10px; }
 
 .bg-white {
   background-color: white;
@@ -264,15 +290,21 @@ ul {
     justify-content: end; }
   .bg-white .btn-outline-dark {
     background-color: #4a4adb;
-    margin: 10px;
-    border-radius: black; }
-  .bg-white .pic {
-    width: 200px;
-    height: auto;
+    border-radius: black;
+    transition: all; }
+  .bg-white .flex-foto {
     display: flex;
+    flex-direction: column; }
+  .bg-white .pic {
+    width: 150px;
+    height: auto;
     justify-content: center;
-    margin: 5px;
-    padding: 5px; }
+    border-color: black;
+    margin: 2px;
+    padding: 2px; }
+  .bg-white .row {
+    display: flex;
+    flex-wrap: wrap; }
   .bg-white .footer-home {
     display: flex;
     justify-content: center;
@@ -330,10 +362,6 @@ ul {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between; }
-  .bg-white .btn-dark {
-    background-color: #4a4adb;
-    border-radius: black;
-    transition: all; }
   .bg-white .card {
     position: relative;
     display: flex;
@@ -421,6 +449,11 @@ ul {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between; }
+
+.btn-dark {
+  background-color: #4a4adb;
+  border-radius: black;
+  transition: all; }
 
 .footer-home {
   display: flex;
