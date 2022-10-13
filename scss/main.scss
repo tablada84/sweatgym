@@ -110,13 +110,22 @@ body {
 .home-flex {
   display: flex;
   flex-direction: column;
-}
-.main-flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  .main-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    margin: 10px;
+  }
 
+  .picture {
+    width: 150px;
+    height: 150px;
+  }
+  .mpic {
+    width: 90vw;
+  }
+}
 ul {
   list-style: circle;
   text-align: start;
@@ -132,6 +141,28 @@ ul {
   }
 }
 
+.flexImagenTrin {
+  background-color: none;
+  text-align: center;
+  font-size: 50px;
+}
+
+.flex-imagen {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+.fleximagen img {
+  width: 400px;
+  height: 150px;
+  font-size: 50px;
+  border: solid black 3px;
+  justify-content: center;
+}
+
 .redesFlotantes img {
   width: 50px;
   text-align: center;
@@ -145,17 +176,17 @@ ul {
     justify-content: center;
     background-color: aliceblue;
     margin: 40px;
-  }
-  .footer-home div {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    background-color: aliceblue;
-    p {
+    .footer-home div {
       display: flex;
       justify-content: center;
-      background-color: aliceblue;
       padding-top: 10px;
+      background-color: aliceblue;
+      p {
+        display: flex;
+        justify-content: center;
+        background-color: aliceblue;
+        padding-top: 10px;
+      }
     }
   }
 
@@ -173,17 +204,26 @@ ul {
   }
   .btn-outline-dark {
     background-color: rgb(74, 74, 219);
-    margin: 10px;
     border-radius: black;
+    transition: all;
+  }
+
+  .flex-foto {
+    display: flex;
+    flex-direction: column;
   }
 
   .pic {
-    width: 200px;
+    width: 150px;
     height: auto;
-    display: flex;
     justify-content: center;
-    margin: 5px;
-    padding: 5px;
+    border-color: black;
+    margin: 2px;
+    padding: 2px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .footer-home {
@@ -260,13 +300,6 @@ ul {
     align-items: center;
     justify-content: space-between;
   }
-
-  .btn-dark {
-    background-color: rgb(74, 74, 219);
-    border-radius: black;
-    transition: all;
-  }
-
   .card {
     position: relative;
     display: flex;
@@ -373,6 +406,11 @@ ul {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+}
+.btn-dark {
+  background-color: rgb(74, 74, 219);
+  border-radius: black;
+  transition: all;
 }
 
 .footer-home {
