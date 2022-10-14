@@ -147,15 +147,7 @@ ul {
   font-size: 50px;
 }
 
-.flex-imagen {
-  height: 150px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 30px;
-  padding-top: 30px;
-}
-.fleximagen img {
+.fleximagen div {
   width: 400px;
   height: 150px;
   font-size: 50px;
@@ -189,8 +181,15 @@ ul {
       }
     }
   }
+}
+/* IMAGEN HTML */
 
-  /* IMAGEN HTML */
+.mpic {
+  width: 90vw;
+}
+.picture {
+  width: 200px;
+  height: 200px;
 }
 .bg-white {
   background-color: white;
