@@ -10,24 +10,23 @@
     <meta name="keywords" content="gimnasios, fisiculturismo, spinnig, fit">
     <meta name="description" content="gimansio con los mejores profesionales en distitntas actividaddes">
     <link rel="shortcut icon" href="multimedia/sweatgym.jpg" type="image/x-icon">
-    <!-- CSS only -->
+    <!-- css only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg bg-white">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="./multimedia/sweatgym.jpg" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <header>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./multimedia/sweatgym.jpg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div>
                         <button class="btn btn-outline-dark">
                             <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
@@ -46,44 +45,101 @@
                                 href="paginas/informacion.html">Informacion</a>
                         </button>
                     </div>
-                </header>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
+    <main>
 
+        <section class="principal">
+            <h2 class="principal__titulo">El cambio esta en vos</h2>
 
-    <section class="principal">
-        <h2 class="principal__titulo">El cambio esta en vos</h2>
+            <h2 class="principal__subtitulo">El exito esta en la alimentacion</h2>
 
-        <h2 class="principal__subtitulo">El exito esta en la alimentacion</h2>
+            <h2 class="principal__tituloTres">SWEATGYM</h2>
+            <h2 class="principal__titulotres principal__titulo--azul"></h2>
 
-        <h2 class="principal__tituloTres">SWEATGYM</h2>
-        <h2 class="principal__titulotres principal__titulo--azul"></h2>
-
-    </section>
-
-    <section class="home-flex">
-
-        <main class="main-flex">
-            <img src="./multimedia/logo 1.jpg" alt="">
-
-        </main>
-        <article>
-            <h2>Entrenamientos</h2>
-            <ul>
-                <li>Musculacion</li>
-                <li>Spinning</li>
-                <li>Localizada</li>
-                <li>Funcional</li>
-            </ul>
-            </div>
-        </article>
-    </section>
-    <h1 class="ImagenTrin"></h1>
-    <main class="flexImagen">
-        <img src="./multimedia/imagen 22.jpg" alt="">
-        <img src="./multimedia/imagen 24.jpg" alt="">
+        </section>
     </main>
+    <div class="flexbox-container-video">
+        <div class="">
+
+            <video autoplay controls>
+
+                <source src="./multimedia/VID-20221011-WA0028.mp4" type="video/mp4">
+
+
+            </video>
+        </div>
+    </div>
+
+    <article>
+        <h2 class="entrenamientos">Entrenamientos</h2>
+        <ul>
+            <li>Musculacion</li>
+            <li>Spinning</li>
+            <li>Localizada</li>
+            <li>Funcional</li>
+        </ul>
+
+    </article>
+
+    <style>
+        .flexbox-container-video {
+            display: -ms-flex;
+            display: -webkit-flex;
+            display: flex;
+            justify-content: center;
+
+
+
+        }
+
+        .flexbox-container {
+            display: -ms-flex;
+            display: -webkit-flex;
+            display: flex;
+
+
+        }
+
+        .flexbox-container>div {
+
+            width: 25%;
+            padding: 10px;
+
+        }
+    </style>
+
+    <div class="flexbox-container">
+
+        <div>
+            <img src="./multimedia/SWEAT 26.jpg" style="width: 100%; height: 80%;">
+
+        </div>
+
+        <div>
+            <img src="./multimedia/sweat23.jpg" style="width: 100%; height: 80%;">
+
+
+        </div>
+
+        <div>
+            <img src="./multimedia/SWEAT 24.jpg" style="width: 100%; height: 80%;">
+
+
+        </div>
+
+        <div>
+            <img src="./multimedia/SWEAT25.jpg" style="width: 100%; height: 80%;">
+
+
+        </div>
+
+    </div>
+
+
+    <form>
 
     </form>
 

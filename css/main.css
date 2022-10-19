@@ -251,8 +251,7 @@ ul {
 
 .redesFlotantes img {
   width: 50px;
-  text-align: center;
-  /* IMAGEN HTML */ }
+  text-align: center; }
   .redesFlotantes img .footer-home {
     display: flex;
     justify-content: center;
@@ -268,6 +267,14 @@ ul {
         justify-content: center;
         background-color: aliceblue;
         padding-top: 10px; }
+
+/* IMAGEN HTML */
+.mpic {
+  width: 90vw; }
+
+.picture {
+  width: 200px;
+  height: 200px; }
 
 .bg-white {
   background-color: white;
