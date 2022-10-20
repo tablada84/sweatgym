@@ -51,6 +51,32 @@
     </header>
     <main>
 
+        <style>
+            .flexbox-container-video {
+                display: -ms-flex;
+                display: -webkit-flex;
+                display: flex;
+
+
+                justify-content: center;
+
+
+
+            }
+
+            .flexbox-container {
+                display: -ms-flex;
+                display: -webkit-flex;
+                display: flex;
+            }
+
+            .flexbox-container>div {
+                width: 25%;
+                padding: 10px;
+
+            }
+        </style>
+
         <section class="principal">
             <h2 class="principal__titulo">El cambio esta en vos</h2>
 
@@ -62,7 +88,7 @@
         </section>
     </main>
     <div class="flexbox-container-video">
-        <div class="">
+        <div class="row">
 
             <video autoplay controls>
 
@@ -84,26 +110,7 @@
 
     </article>
 
-    <style>
-        .flexbox-container-video {
-            display: -ms-flex;
-            display: -webkit-flex;
-            display: flex;
-            justify-content: center;
-        }
 
-        .flexbox-container {
-            display: -ms-flex;
-            display: -webkit-flex;
-            display: flex;
-        }
-
-        .flexbox-container>div {
-            width: 25%;
-            padding: 10px;
-
-        }
-    </style>
 
     <div class="flexbox-container">
 
