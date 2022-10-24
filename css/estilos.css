@@ -420,45 +420,6 @@ margin-top: 10px;
 
 
 
-<section class="home-flex">
 
-        <main class="main-flex">
-            <img src="./multimedia/logo 1.jpg" class="img-fluid col-lg-4 col-md-12 mt-md-5 mt-lg-0" alt="">
-
-        </main>
-        .home-flex {
-  display: flex;
-  flex-direction: column;
-}
-.main-flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  <h2 class="pictureEntrenar"></h2>
-
-        <main class="flexpicture">
-
-            <div>
-                <img src="../multimedia/picture 1.jpg" alt="">
-                <img src="../multimedia/picture 2.jpg" alt="">
-                <img src="../multimedia/picture 3.jpg" alt="">
-                <img src="../multimedia/picture 4.jpg" alt="">
-            </div>
-
-        </main>
-        .main-flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-        <h1 class="imagenTrin"></h1>
-        <main class="flexImagen">
-            <h2>Copyright</h2>
-            <div>
-                <img src="./multimedia/imagen 22.jpg" class="img-fluid col-lg-4 col-md-12 mt-md-5 mt-lg-0"
-                    alt="trinning">
-                <img src="./multimedia/imagen 24.jpg" class="img-fluid col-lg-4 col-md-12 mt-md-5 mt-lg-0"
-                    alt="trinning">
-
-            </div>
-        </main>
+    
+    

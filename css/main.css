@@ -116,11 +116,22 @@ body {
     justify-content: start; }
 
 * {
+  box-sizing: border-box; }
+
+* {
   margin: 0;
   padding: 0; }
 
+header,
+footer {
+  background-color: aliceblue;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 5px;
+  text-align: center; }
+
 h1 {
-  text-align: start;
+  text-align: center;
   color: white;
   font-size: 35px; }
 
@@ -143,6 +154,15 @@ ul {
   color: black;
   font-size: 30px; }
 
+li {
+  color: white;
+  font-size: italic;
+  list-style: none; }
+
+p {
+  font-style: italic;
+  color: black; }
+
 /* CAMBIA LA MEDIDA DEL REM. 1 REM = 10PX */
 html {
   font-size: 62, 5%; }
@@ -162,7 +182,7 @@ body {
   background-color: white; }
 
 .btn-dark {
-  background-color: #4a4adb;
+  background-color: #35357e;
   border-radius: black;
   transition: all; }
 
@@ -205,25 +225,51 @@ body {
   padding: 20px;
   border: 5px black; }
 
-.home-flex {
+.redesFlotantes img {
+  width: 50px;
+  height: 50px;
+  text-align: center; }
+
+.imagenes-flex {
   display: flex;
   flex-direction: column; }
+
+.entrenamientos-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+ul {
+  list-style: circle;
+  text-align: start; }
+
+ul li {
+  display: inline-flex;
+  width: 40%;
+  position: relative;
+  font-size: 16px;
+  padding: top;
+  margin: 40px;
+  text-align: start;
+  background-color: #f8f5f5; }
+
+.home-flex {
+  display: flex;
+  flex-direction: column;
+  /* IMAGEN HTML */
+  /* sass galeria variables, important */
+  /* GALERIA HTML */
+  /* INFORMACION HTML */ }
   .home-flex .main-flex {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 10px;
     margin: 10px; }
-  .home-flex .picture {
-    width: 150px;
-    height: 150px; }
-  .home-flex .mpic {
-    width: 90vw; }
-
-ul {
-  list-style: circle;
-  text-align: start; }
-  ul li {
+  .home-flex ul {
+    list-style: circle;
+    text-align: start; }
+  .home-flex li {
     display: inline-flex;
     width: 40%;
     position: relative;
@@ -232,104 +278,107 @@ ul {
     margin: 40px;
     text-align: start;
     background-color: #f8f5f5; }
-
-.flexImagenTrin {
-  background-color: none;
-  text-align: center;
-  font-size: 50px; }
-
-.fleximagen div {
-  width: 400px;
-  height: 150px;
-  font-size: 50px;
-  border: solid black 3px;
-  justify-content: center; }
-
-.redesFlotantes img {
-  width: 50px;
-  text-align: center; }
-
-.redesFlotantes img {
-  width: 50px;
-  text-align: center; }
-  .redesFlotantes img .footer-home {
+  .home-flex .flexbox-container-video {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center; }
+  .home-flex .flexbox-container {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex; }
+  .home-flex .flexbox-container > div {
+    width: 25%;
+    padding: 10px; }
+  .home-flex .footer-home {
     display: flex;
     justify-content: center;
     background-color: aliceblue;
     margin: 40px; }
-    .redesFlotantes img .footer-home .footer-home div {
-      display: flex;
-      justify-content: center;
-      padding-top: 10px;
-      background-color: aliceblue; }
-      .redesFlotantes img .footer-home .footer-home div p {
-        display: flex;
-        justify-content: center;
-        background-color: aliceblue;
-        padding-top: 10px; }
-
-/* IMAGEN HTML */
-.mpic {
-  width: 90vw; }
-
-.picture {
-  width: 200px;
-  height: 200px; }
-
-.bg-white {
-  background-color: white;
-  /* sass galeria variables, important */
-  /* GALERIA HTML */
-  /* INFORMACION HTML */ }
-  .bg-white .nav-expand-lg .navbar-nav .nav-link {
-    position: relative;
+  .home-flex .footer-home div {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: start;
     align-items: center;
-    justify-content: end; }
-  .bg-white .btn-outline-dark {
-    background-color: #4a4adb;
-    border-radius: black;
-    transition: all; }
-  .bg-white .flex-foto {
+    height: 80px;
+    width: 80px; }
+  .home-flex .footer-home div img {
     display: flex;
-    flex-direction: column; }
-  .bg-white .pic {
-    width: 150px;
-    height: auto;
-    justify-content: center;
-    border-color: black;
-    margin: 2px;
-    padding: 2px; }
-  .bg-white .row {
+    justify-content: start;
+    margin-top: 20px;
+    padding: 20px; }
+  .home-flex .footer-home div p {
     display: flex;
-    flex-wrap: wrap; }
-  .bg-white .footer-home {
-    display: flex;
-    justify-content: center;
-    background-color: aliceblue;
-    margin: 10px; }
-    .bg-white .footer-home .footer-home div {
+    justify-content: start; }
+  .home-flex .mpic {
+    width: 90vw; }
+  .home-flex .picture {
+    width: 80px;
+    padding: 10px; }
+  .home-flex .bg-white {
+    background-color: white; }
+    .home-flex .bg-white .nav-expand-lg .navbar-nav .nav-link {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: end; }
+    .home-flex .bg-white .btn-outline-dark {
+      background-color: #4a4adb;
+      border-radius: black;
+      transition: all; }
+    .home-flex .bg-white .flex-foto {
+      display: flex;
+      flex-direction: column; }
+    .home-flex .bg-white .flex-casa {
+      display: flex; }
+      .home-flex .bg-white .flex-casa ul {
+        list-style: circle;
+        text-align: relative; }
+        .home-flex .bg-white .flex-casa ul li {
+          display: inline-flex;
+          width: 30%;
+          position: relative;
+          font-size: 16px;
+          padding: top;
+          margin: 20px;
+          text-align: center;
+          background-color: #eeecf8; }
+    .home-flex .bg-white .pic {
+      width: 150px;
+      height: auto;
+      justify-content: center;
+      border-color: black;
+      margin: 2px;
+      padding: 2px; }
+    .home-flex .bg-white .row {
+      display: flex;
+      flex-wrap: wrap; }
+    .home-flex .bg-white .footer-home {
+      display: flex;
+      justify-content: center;
+      background-color: aliceblue;
+      margin: 10px; }
+    .home-flex .bg-white .footer-home div {
       display: flex;
       justify-content: center;
       padding-top: 10px;
       background-color: aliceblue; }
-    .bg-white .footer-home p {
+    .home-flex .bg-white p {
       display: flex;
       justify-content: center;
       background-color: aliceblue;
       padding-top: 10px; }
-  .bg-white .house-flex {
+  .home-flex .house-flex {
     display: flex;
     flex-direction: column; }
-    .bg-white .house-flex .actividades-flex {
+    .home-flex .house-flex .actividades-flex {
       display: flex;
       align-items: center;
       justify-content: center; }
-    .bg-white .house-flex ul {
+    .home-flex .house-flex ul {
       list-style: circle;
       text-align: relative; }
-      .bg-white .house-flex ul li {
+      .home-flex .house-flex ul li {
         display: inline-flex;
         width: 30%;
         position: relative;
@@ -338,45 +387,45 @@ ul {
         margin: 20px;
         text-align: center;
         background-color: #eeecf8; }
-  .bg-white .footer-home {
+  .home-flex .footer-home {
     display: flex;
     justify-content: center;
     background-color: aliceblue;
     margin: 10px; }
-    .bg-white .footer-home .footer-home div {
+    .home-flex .footer-home .footer-home div {
       display: flex;
       justify-content: center;
       padding-top: 10px;
       background-color: aliceblue; }
-    .bg-white .footer-home p {
+    .home-flex .footer-home p {
       display: flex;
       justify-content: center;
       background-color: aliceblue;
       padding-top: 10px; }
-  .bg-white .bg-white {
+  .home-flex .bg-white {
     background-color: white; }
-  .bg-white .nav-expand-lg .navbar-nav .nav-link {
+  .home-flex .nav-expand-lg .navbar-nav .nav-link {
     position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between; }
-  .bg-white .card {
+  .home-flex .card {
     position: relative;
     display: flex;
     flex-direction: column;
     min-width: 0; }
-  .bg-white .house-flex {
+  .home-flex .house-flex {
     display: flex;
     flex-direction: column; }
-    .bg-white .house-flex .actividades-flex {
+    .home-flex .house-flex .actividades-flex {
       display: flex;
       align-items: center;
       justify-content: center; }
-    .bg-white .house-flex ul {
+    .home-flex .house-flex ul {
       list-style: circle;
       text-align: relative; }
-      .bg-white .house-flex ul li {
+      .home-flex .house-flex ul li {
         display: inline-flex;
         width: 30%;
         position: relative;
@@ -385,28 +434,28 @@ ul {
         margin: 20px;
         text-align: center;
         background-color: #eeecf8; }
-  .bg-white .footer-home {
+  .home-flex .footer-home {
     display: flex;
     justify-content: center;
     background-color: aliceblue;
     margin: 10px; }
-    .bg-white .footer-home .footer-home div {
+    .home-flex .footer-home .footer-home div {
       display: flex;
       justify-content: center;
       padding-top: 10px;
       background-color: aliceblue; }
-    .bg-white .footer-home p {
+    .home-flex .footer-home p {
       display: flex;
       justify-content: center;
       background-color: aliceblue;
       padding-top: 10px; }
-  .bg-white .bg-white {
+  .home-flex .bg-white {
     background-color: white; }
-  .bg-white .btn-dark {
+  .home-flex .btn-dark {
     background-color: #4a4adb;
     border-radius: black;
     transition: all; }
-  .bg-white .nav-expand-lg .navbar-nav .nav-link {
+  .home-flex .nav-expand-lg .navbar-nav .nav-link {
     position: relative;
     display: flex;
     flex-wrap: wrap;
