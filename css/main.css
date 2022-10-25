@@ -161,7 +161,8 @@ li {
 
 p {
   font-style: italic;
-  color: black; }
+  color: black;
+  font-size: 17px; }
 
 /* CAMBIA LA MEDIDA DEL REM. 1 REM = 10PX */
 html {
@@ -169,7 +170,7 @@ html {
 
 /* INDEX */
 body {
-  background-color: #3535bb;
+  background-color: #1d20ce;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-position: right center;
   background-repeat: no-repeat;
