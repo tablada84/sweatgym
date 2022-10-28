@@ -161,7 +161,7 @@ li {
 
 p {
   font-style: italic;
-  color: black;
+  color: #0a0909;
   font-size: 17px; }
 
 /* CAMBIA LA MEDIDA DEL REM. 1 REM = 10PX */
@@ -171,7 +171,7 @@ html {
 /* INDEX */
 body {
   background-color: #1d20ce;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   background-position: right center;
   background-repeat: no-repeat;
   margin: 15px;
@@ -318,7 +318,7 @@ ul li {
     display: flex;
     justify-content: start; }
   .home-flex .mpic {
-    width: 90vw; }
+    width: 80px; }
   .home-flex .picture {
     width: 80px;
     padding: 10px; }
@@ -352,7 +352,7 @@ ul li {
           text-align: center;
           background-color: #eeecf8; }
     .home-flex .bg-white .pic {
-      width: 150px;
+      width: 80px;
       height: auto;
       justify-content: center;
       border-color: black;
@@ -418,11 +418,14 @@ ul li {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between; }
+  .home-flex .contenedor-fluid {
+    display: flex; }
   .home-flex .card {
     position: relative;
     display: flex;
     flex-direction: column;
-    min-width: 0; }
+    min-width: 0;
+    justify-content: space-evenly; }
   .home-flex .house-flex {
     display: flex;
     flex-direction: column; }

@@ -54,7 +54,7 @@ li {
 }
 p {
   font-style: italic;
-  color: rgb(0, 0, 0);
+  color: rgb(10, 9, 9);
   font-size: 17px;
 }
 
@@ -67,7 +67,7 @@ html {
 
 body {
   background-color: rgb(29, 32, 206);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   background-position: right center;
   background-repeat: no-repeat;
   margin: 15px;
@@ -236,7 +236,7 @@ ul li {
   /* IMAGEN HTML */
 
   .mpic {
-    width: 90vw;
+    width: 80px;
   }
   .picture {
     width: 80px;
@@ -282,7 +282,7 @@ ul li {
     }
 
     .pic {
-      width: 150px;
+      width: 80px;
       height: auto;
       justify-content: center;
       border-color: black;
@@ -369,11 +369,17 @@ ul li {
     align-items: center;
     justify-content: space-between;
   }
+
+  .contenedor-fluid {
+    display: flex;
+  }
+
   .card {
     position: relative;
     display: flex;
     flex-direction: column;
     min-width: 0;
+    justify-content: space-evenly;
   }
   .house-flex {
     display: flex;
