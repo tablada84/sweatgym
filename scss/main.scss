@@ -68,7 +68,7 @@ html {
 /* INDEX */
 
 body {
-  background-color: rgb(29, 32, 206);
+  background-color: rgb(44, 44, 226);
   font-family: Georgia, "Times New Roman", Times, serif;
   background-position: right center;
   background-repeat: no-repeat;
@@ -83,7 +83,7 @@ body {
   background-color: white;
 }
 .btn-dark {
-  background-color: rgb(53, 53, 126);
+  background-color: rgb(55, 55, 146);
   border-radius: black;
   transition: all;
 }
@@ -382,29 +382,6 @@ ul li {
     flex-direction: column;
     min-width: 0;
     justify-content: space-evenly;
-  }
-  .house-flex {
-    display: flex;
-    flex-direction: column;
-    .actividades-flex {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    ul {
-      list-style: circle;
-      text-align: relative;
-      li {
-        display: inline-flex;
-        width: 30%;
-        position: relative;
-        font-size: 16px;
-        padding: top;
-        margin: 20px;
-        text-align: center;
-        background-color: rgb(238, 236, 248);
-      }
-    }
   }
 
   .footer-home {

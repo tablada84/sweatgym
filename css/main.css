@@ -173,7 +173,7 @@ html {
 
 /* INDEX */
 body {
-  background-color: #1d20ce;
+  background-color: #2c2ce2;
   font-family: Georgia, "Times New Roman", Times, serif;
   background-position: right center;
   background-repeat: no-repeat;
@@ -186,7 +186,7 @@ body {
   background-color: white; }
 
 .btn-dark {
-  background-color: #35357e;
+  background-color: #373792;
   border-radius: black;
   transition: all; }
 
@@ -429,25 +429,6 @@ ul li {
     flex-direction: column;
     min-width: 0;
     justify-content: space-evenly; }
-  .home-flex .house-flex {
-    display: flex;
-    flex-direction: column; }
-    .home-flex .house-flex .actividades-flex {
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-    .home-flex .house-flex ul {
-      list-style: circle;
-      text-align: relative; }
-      .home-flex .house-flex ul li {
-        display: inline-flex;
-        width: 30%;
-        position: relative;
-        font-size: 16px;
-        padding: top;
-        margin: 20px;
-        text-align: center;
-        background-color: #eeecf8; }
   .home-flex .footer-home {
     display: flex;
     justify-content: center;
