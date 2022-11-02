@@ -118,6 +118,11 @@ body {
   width: 25%;
   padding: 10px;
 }
+
+.flexbox-container > div > img {
+  width: 100%;
+  height: 100%;
+}
 .imagenes-flex {
   display: flex;
   flex-direction: column;
@@ -317,7 +322,7 @@ ul li {
   }
 
   /* sass galeria variables, important */
-  .house-flex {
+  .house-flex-x {
     display: flex;
     flex-direction: column;
     .actividades-flex {
@@ -334,7 +339,7 @@ ul li {
         position: relative;
         font-size: 16px;
         padding: top;
-        margin: 20px;
+        margin: 100px;
         text-align: center;
         background-color: rgb(238, 236, 248);
       }
